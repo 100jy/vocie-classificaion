@@ -60,8 +60,9 @@ plt.figure(figsize=(14, 5))
 librosa.display.waveplot(x, sr=sr_x)
 plt.title('vocal_only')
 ```
+
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_8_1.png)
-```
+
 
 ```python
 %matplotlib inline 
@@ -84,6 +85,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI0ODUzMzEsLTMxMDI3OTI1LDM2MD
+eyJoaXN0b3J5IjpbLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
 I1MTcxMF19
 -->
