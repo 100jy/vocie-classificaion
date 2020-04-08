@@ -25,7 +25,7 @@ for i in song_list:
                              'output_path' : local_path[1].format(i[:len(i)-3])})
 ```
 
-## sampling
+## Sampling
 sampling from continuous signal to create discrete array data. 
 to
 do this, choose the sampling tate, that determines how tight intervals between
@@ -71,8 +71,7 @@ plt.title('mixed')
 
 ## feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
-10~20개의
-스펙트럼의 subset, 인간의 청각 시스템을 모델링해서 고음역대의 변화에 덜 민감하게 필터링
+10~20개의 스펙트럼의 subset, 인간의 청각 시스템을 모델링해서 고음역대의 변화에 덜 민감하게 필터링
 
 ```python
 mfcc = librosa.feature.mfcc(x,sr=sr_x)
@@ -83,6 +82,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzczNzkyMCwtMzEwMjc5MjUsMzYwMj
-UxNzEwXX0=
+eyJoaXN0b3J5IjpbLTIxMTc0MDc3NDgsLTMxMDI3OTI1LDM2MD
+I1MTcxMF19
 -->
