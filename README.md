@@ -1,5 +1,5 @@
 # 개요
-![enter image description here](https://drive.google.com/file/d/1prC86RvW99H8blgqWI2NpvJ5-vwhXIF3/view?usp=sharing)
+![enter image description here](output_11_1.png)
 
 # Data pre-processing
 
@@ -99,5 +99,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDI3OTI1LDM2MDI1MTcxMF19
+eyJoaXN0b3J5IjpbMTc5NDc0NjQ0NCwtMzEwMjc5MjUsMzYwMj
+UxNzEwXX0=
 -->
