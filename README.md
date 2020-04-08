@@ -7,6 +7,7 @@
 graph LR
 A[Full song] -- WaveUNet --> B(Vocal only)
 B -- Extractiong Feature by MFCCs  --> C[Feature of song]
+머메이드 지원한다슈발럼들...
 ```
 
  'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거한다. 이후 MFCCs 모델을 이용하여 특징을 추출하고 이를 이용하여 가수들을 분류한다.
@@ -84,6 +85,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0ODMzOTc4LC0zMTAyNzkyNSwzNjAyNT
-E3MTBdfQ==
+eyJoaXN0b3J5IjpbLTg4NTk4OTMwMiwtMzEwMjc5MjUsMzYwMj
+UxNzEwXX0=
 -->
