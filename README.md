@@ -1,5 +1,5 @@
 # 개요
-![enter image description here](output_11_1.png)
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_11_1.png)
 
 # Data pre-processing
 
@@ -99,6 +99,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDc0NjQ0NCwtMzEwMjc5MjUsMzYwMj
-UxNzEwXX0=
+eyJoaXN0b3J5IjpbLTIxNDUwMTY2NTgsLTMxMDI3OTI1LDM2MD
+I1MTcxMF19
 -->
