@@ -1,5 +1,5 @@
-# environment setting
-reqirement : cuda,tensorFLow.etc..
+# 개요
+
 
 # Data pre-processing
 
@@ -99,5 +99,5 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczODkxMDM1XX0=
+eyJoaXN0b3J5IjpbMzM1MDI5MjhdfQ==
 -->
