@@ -87,7 +87,7 @@ plt.figure(figsize=(15,7))
 librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ```
 
-```python
-모든 노래에 Spectogram 만들어주고 -> CNN
-MFCC,etc 다붙여서 특징 만들어준다. -> DNN 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA4NTA4ODA3MV19
+-->
