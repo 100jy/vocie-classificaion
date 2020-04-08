@@ -9,7 +9,6 @@ A[Full song] -- WaveUNet --> B(Vocal only)
 B -- Extractiong Feature by MFCCs  --> C[Feature of song]
 ```
 
-
  'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거한다. 이후 MFCCs 모델을 이용하여 특징을 추출하고 이를 이용하여 가수들을 분류한다.
 
  해당 데이터를 이용하여 학습된 분류기로 입력값에 대해 분류한다. 
@@ -70,20 +69,6 @@ librosa.display.waveplot(y, sr=sr_y)
 plt.title('mixed')
 ```
 
-## spectogram
-시간의 따른 신호 강도의 변화를 보여주는 그림, 신호의 세기는 얼마나 소리가 큰 가를 의미한다.
-FFT을 이용하여
-만들어준다.
-
-```python
-%matplotlib inline
-X = librosa.stft(x)
-Xdb = librosa.amplitude_to_db(abs(X))
-plt.figure(figsize=(14,5))
-librosa.display.specshow(Xdb,sr=sr_x,x_axis='time',y_axis='log')
-#y축 진동수에 로그 취해줘서 좀더 변화를 크게본다
-plt.colorbar()
-```
 
 ## feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
@@ -99,6 +84,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMTIwNzkxLC0zMTAyNzkyNSwzNjAyNT
+eyJoaXN0b3J5IjpbNDc0ODMzOTc4LC0zMTAyNzkyNSwzNjAyNT
 E3MTBdfQ==
 -->
