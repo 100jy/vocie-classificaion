@@ -10,9 +10,7 @@ B -- Extractiong Feature by MFCCs  --> C[Feature of song]
 머메이드 지원안한다슈발럼들...
 ```
 
- 'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거한다. 이후 MFCCs 모델을 이용하여 특징을 추출하고 이를 이용하여 가수들을 분류한다.
-
- 해당 데이터를 이용하여 학습된 분류기로 입력값에 대해 분류한다. 
+ 'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거한다. 이후 MFCCs 모델을 이용하여 특징을 추출하고 이를 이용하여 가수들을 분류한다. 이후 해당 데이터를 이용하여 학습된 분류기로 입력값에 대해 분류한다. 
 ## Vocal extraction by Waveunet
 Vocal extracion from signal datas by using
 Waveunet, cnn network designed for separating vocal from song
@@ -85,6 +83,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjkyODQyOCwtMzEwMjc5MjUsMzYwMj
+eyJoaXN0b3J5IjpbMTI2NzczNzkyMCwtMzEwMjc5MjUsMzYwMj
 UxNzEwXX0=
 -->
