@@ -1,5 +1,5 @@
 # 개요
-![enter image description here](d)
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EB%8C%80%EB%9E%B5%EC%A0%81%EC%9D%B8%20%EA%B5%AC%EC%A1%B0.png)
 
 # Data pre-processing
 
