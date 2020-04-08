@@ -59,7 +59,7 @@ import librosa.display
 plt.figure(figsize=(14, 5))
 librosa.display.waveplot(x, sr=sr_x)
 plt.title('vocal_only')
-
+```
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_8_1.png)
 ```
 
@@ -71,7 +71,7 @@ plt.title('mixed')
 ```
 
 
-## feature extraction
+## Feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
 10~20개의 스펙트럼의 subset, 인간의 청각 시스템을 모델링해서 고음역대의 변화에 덜 민감하게 필터링
 
@@ -84,6 +84,6 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTk0Mzc5NywtMzEwMjc5MjUsMzYwMj
-UxNzEwXX0=
+eyJoaXN0b3J5IjpbLTE5MDI0ODUzMzEsLTMxMDI3OTI1LDM2MD
+I1MTcxMF19
 -->
