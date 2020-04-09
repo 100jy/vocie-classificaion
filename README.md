@@ -110,11 +110,17 @@ print(df)
 import seaborn as sns
 sns.scatterplot(x='pc1',y='pc2',hue = 'cluster',data =df)
 df[df['cluster']=='f']
+
+군집화 결과
 ```
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig3.png)
 
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EC%A3%BC%EC%84%9D%202020-04-09%20211130.png)
+
+
 결과가 좋지 않다, 더 많은 데이터가 필요 할 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2NjU3MjA2LC04MzQ5NDIxMjksLTE5ND
-IyMjI2NzksLTMxMDI3OTI1LDM2MDI1MTcxMF19
+eyJoaXN0b3J5IjpbOTY0NjA4OTUyLDk2NjY1NzIwNiwtODM0OT
+QyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3MTBd
+fQ==
 -->
