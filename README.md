@@ -90,7 +90,27 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
 
+```python
+from sklearn.preprocessing import StandardScaler
+import numpy as np
+
+
+#PCA
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+pc = pca.fit_transform(scaled_X)
+new = np.c_[pc,name, predict]
+df  = pd.DataFrame(new,columns=['pc1','pc2','singer','cluster'])
+print(df)
+
+#polting
+import seaborn as sns
+sns.scatterplot(x='pc1',y='pc2',hue = 'cluster',data =df)
+plt.savefig('fig3.png', dpi=300)
+df[df['cluster']=='f']
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NjM5NDUzMCwtMTk0MjIyMjY3OSwtMz
+eyJoaXN0b3J5IjpbLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMz
 EwMjc5MjUsMzYwMjUxNzEwXX0=
 -->
