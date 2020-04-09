@@ -88,8 +88,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ## Labeling by unsupervised learning
 ### K-MEANs
+추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcyMDMyMzYsLTE5NDIyMjI2NzksLT
-MxMDI3OTI1LDM2MDI1MTcxMF19
+eyJoaXN0b3J5IjpbMTE4NjM5NDUzMCwtMTk0MjIyMjY3OSwtMz
+EwMjc5MjUsMzYwMjUxNzEwXX0=
 -->
