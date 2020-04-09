@@ -1,5 +1,5 @@
 # 개요
-![enter image description here]([https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png))
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
 # Data pre-processing
 
@@ -120,7 +120,7 @@ df[df['cluster']=='f']
 
 결과가 좋지 않다, 더 많은 데이터가 필요 할 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU0ODM0MTEsOTY0NjA4OTUyLDk2ND
-YwODk1Miw5NjY2NTcyMDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3
-OSwtMzEwMjc5MjUsMzYwMjUxNzEwXX0=
+eyJoaXN0b3J5IjpbLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0Nj
+A4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5
+LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
 -->
