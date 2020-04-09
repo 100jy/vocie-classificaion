@@ -90,10 +90,13 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
 
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig.png)
+
+Scree plot을 보고 7개의 군집이 적당함을 알 수 있다.
+
 ```python
 from sklearn.preprocessing import StandardScaler
 import numpy as np
-
 
 #PCA
 from sklearn.decomposition import PCA
@@ -106,11 +109,10 @@ print(df)
 #polting
 import seaborn as sns
 sns.scatterplot(x='pc1',y='pc2',hue = 'cluster',data =df)
-plt.savefig('fig3.png', dpi=300)
 df[df['cluster']=='f']
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMz
-EwMjc5MjUsMzYwMjUxNzEwXX0=
+eyJoaXN0b3J5IjpbLTY0OTI0OTM5MywtODM0OTQyMTI5LC0xOT
+QyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
 -->
