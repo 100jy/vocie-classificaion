@@ -84,7 +84,12 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ```
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
+
+
+## Labeling by unsupervised learning
+### K-MEANs
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
-I1MTcxMF19
+eyJoaXN0b3J5IjpbLTEwMzcyMDMyMzYsLTE5NDIyMjI2NzksLT
+MxMDI3OTI1LDM2MDI1MTcxMF19
 -->
