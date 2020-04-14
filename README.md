@@ -71,8 +71,8 @@ librosa.display.waveplot(y, sr=sr_y)
 plt.title('mixed')
 ```
 ## VAD
-반주가 제거 된 음원에서 보컬이 등장하는 구간 만을 추출하여 준다.
-
+[webrtcvad](https://github.com/wiseman/py-webrtcvad)를 이용하여 반주가 제거 된 음원에서 보컬이 등장하는 구간 만을 추출하여 준다.
+ 
 
 ## Feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
@@ -87,7 +87,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 
-
+## Dimension reduction by Auto Encoder
+Auto Encoderfmf
 ## Labeling by unsupervised learning
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
@@ -122,7 +123,7 @@ df[df['cluster']=='f']
 
 결과가 좋지 않다, 더 많은 데이터가 필요 할 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDkwMzM0NTUsLTE3NDYwODExMjQsLT
+eyJoaXN0b3J5IjpbLTE1ODUwOTE0MzksLTE3NDYwODExMjQsLT
 E0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2NjY1NzIw
 NiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNj
 AyNTE3MTBdfQ==
