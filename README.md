@@ -81,13 +81,13 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ```
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig3.png)
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
+[https://github.com/100jy/vocie-classificaion/blob/master/fig4.png](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EC%A3%BC%EC%84%9D%202020-04-09%20211130.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNz
-Q2MDgxMTI0LC0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1
-Miw5NjY2NTcyMDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMz
-EwMjc5MjUsMzYwMjUxNzEwXX0=
+eyJoaXN0b3J5IjpbLTIwMzg4MzM0MCwxNjQyODc1Mzg5LDE5Nz
+M1MjMyNjQsLTE3NDYwODExMjQsLTE0ODI5MDY0NCw5NjQ2MDg5
+NTIsOTY0NjA4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOT
+QyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
 -->
