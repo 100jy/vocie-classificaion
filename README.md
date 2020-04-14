@@ -88,42 +88,20 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 
 ## Dimension reduction by Auto Encoder
-Auto Encoder를 이용하여 변수가 5만 정도 되는 고차원 데이터를 400개 가량의 변수로  
+ Auto Encoder를 이용하여 변수가 5만 정도 되는 고차원 데이터를 400개 가량의 변수로 축소 시킨다. 
 ## Labeling by unsupervised learning
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
 
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig.png)
 
-Scree plot을 보고 7개의 군집이 적당함을 알 수 있다.
-
-```python
-from sklearn.preprocessing import StandardScaler
-import numpy as np
-
-#PCA
-from sklearn.decomposition import PCA
-pca = PCA(n_components=2)
-pc = pca.fit_transform(scaled_X)
-new = np.c_[pc,name, predict]
-df  = pd.DataFrame(new,columns=['pc1','pc2','singer','cluster'])
-print(df)
-
-#polting
-import seaborn as sns
-sns.scatterplot(x='pc1',y='pc2',hue = 'cluster',data =df)
-df[df['cluster']=='f']
-
-군집화 결과
 ```
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig3.png)
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EC%A3%BC%EC%84%9D%202020-04-09%20211130.png)
 
 
-결과가 좋지 않다, 더 많은 데이터가 필요 할 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDMxNDg2MCwtMTc0NjA4MTEyNCwtMT
+eyJoaXN0b3J5IjpbLTMwOTc0NzI0MSwtMTc0NjA4MTEyNCwtMT
 Q4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2
 LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
 I1MTcxMF19
