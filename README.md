@@ -88,7 +88,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 
 ## Dimension reduction by Auto Encoder
-Auto Encoderfmf
+Auto Encoder를 이용하여 변수가 5만 정도 되는 고차원 데이터를 400개 가량의 변수로  
 ## Labeling by unsupervised learning
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
@@ -123,8 +123,8 @@ df[df['cluster']=='f']
 
 결과가 좋지 않다, 더 많은 데이터가 필요 할 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODUwOTE0MzksLTE3NDYwODExMjQsLT
-E0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2NjY1NzIw
-NiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNj
-AyNTE3MTBdfQ==
+eyJoaXN0b3J5IjpbLTkxMDMxNDg2MCwtMTc0NjA4MTEyNCwtMT
+Q4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2
+LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
+I1MTcxMF19
 -->
