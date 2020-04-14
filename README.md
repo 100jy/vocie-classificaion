@@ -79,14 +79,12 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
 
 
-```
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig3.png)
-[https://github.com/100jy/vocie-classificaion/blob/master/fig4.png](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EC%A3%BC%EC%84%9D%202020-04-09%20211130.png)
 
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig3.png)
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg4MzM0MCwxNjQyODc1Mzg5LDE5Nz
+eyJoaXN0b3J5IjpbLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5Nz
 M1MjMyNjQsLTE3NDYwODExMjQsLTE0ODI5MDY0NCw5NjQ2MDg5
 NTIsOTY0NjA4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOT
 QyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
