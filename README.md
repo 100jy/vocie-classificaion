@@ -42,15 +42,6 @@ print(x.shape, sr_x)
 print(y.shape, sr_y)
 ```
 
-```python
-#cheak audio
-import IPython.display as ipd
-ipd.Audio(vocal_only)
-```
-
-```python
-ipd.Audio(mixed)
-```
 
 ```python
 %matplotlib inline 
@@ -101,7 +92,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwOTc0NzI0MSwtMTc0NjA4MTEyNCwtMT
+eyJoaXN0b3J5IjpbMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMT
 Q4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2
 LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
 I1MTcxMF19
