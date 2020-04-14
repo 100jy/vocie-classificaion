@@ -70,6 +70,8 @@ plt.figure(figsize=(14, 5))
 librosa.display.waveplot(y, sr=sr_y)
 plt.title('mixed')
 ```
+## VAD
+반주가 제거 된 음원에서 보컬이 등장하는 구간 만을 추출하여 준다.
 
 
 ## Feature extraction
@@ -120,7 +122,8 @@ df[df['cluster']=='f']
 
 결과가 좋지 않다, 더 많은 데이터가 필요 할 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYwODExMjQsLTE0ODI5MDY0NCw5Nj
-Q2MDg5NTIsOTY0NjA4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5
-LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NDkwMzM0NTUsLTE3NDYwODExMjQsLT
+E0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2NjY1NzIw
+NiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNj
+AyNTE3MTBdfQ==
 -->
