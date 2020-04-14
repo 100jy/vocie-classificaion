@@ -55,12 +55,6 @@ plt.title('vocal_only')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_8_1.png)
 
 
-```python
-%matplotlib inline 
-plt.figure(figsize=(14, 5))
-librosa.display.waveplot(y, sr=sr_y)
-plt.title('mixed')
-```
 ## VAD
 [webrtcvad](https://github.com/wiseman/py-webrtcvad)를 이용하여 반주가 제거 된 음원에서 보컬이 등장하는 구간 만을 추출하여 준다.
  
@@ -92,8 +86,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMT
-Q4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2
-LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
-I1MTcxMF19
+eyJoaXN0b3J5IjpbMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNz
+Q2MDgxMTI0LC0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1
+Miw5NjY2NTcyMDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMz
+EwMjc5MjUsMzYwMjUxNzEwXX0=
 -->
