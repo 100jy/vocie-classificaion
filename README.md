@@ -83,8 +83,8 @@ backend.clear_session()
 model = Sequential()
 model.add(Dense(20, input_shape=(20,), activation = 'relu'))
 model.add(Dropout(0.3))
-#model.add(Dense(5, activation = 'relu'))
-#model.add(Dropout(0.3))
+model.add(Dense(5, activation = 'relu'))
+model.add(Dropout(0.3))
 model.add(Dense(5,activation = 'softmax'))
 #fit
 adam = optimizers.Adam(lr = 0.01)
@@ -93,12 +93,17 @@ model.compile(loss = 'categorical_crossentropy',optimizer = adam, metrics = ['ac
 hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_split = 0.1,
                                                          callbacks=[checkpointer], verbose=1)
 ```
+> 결과
+> Epoch 50/50
+604/604 [==============================] - 0s 285us/step - loss: 0.4900 - acc: 0.8328 - val_loss: 0.7955 - val_acc: 0.6912
+
+학
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NzA2NDE5LDk0MDA3MTg5Niw0MzI3Mz
-I1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4
-LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMT
-YwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYx
-MjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MS
-wtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjcz
-MTIxOTddfQ==
+eyJoaXN0b3J5IjpbLTE0MDA1NzU5NjEsOTQwMDcxODk2LDQzMj
+czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
+NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
+0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
+NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
+kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
+NzMxMjE5N119
 -->
