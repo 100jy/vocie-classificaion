@@ -231,8 +231,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 >실제 음성
 >
-><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/823105480%3Fsecret_token%3Ds-JgaHYdTpbz3&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
+>[soundcloud](https://soundcloud.com/yb-100/test3/s-JgaHYdTpbz3)
 
 비교적 비슷한 목소리와 부르는 스타일의 가수를 찾아낸 것으로 보인다.
 
@@ -242,11 +241,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgwNDkzNDksMTIyMzc0MjgzMywtMT
-QyNTUzNjQyNSwtMTMwMDI3NzQyNywtMTk4OTkyMjY2LDIwNzYw
-OTYzNjAsNzMxODgyMzEsMTAwNzM1NDE4NCwxMjE2OTkzNjM1LD
-UxNTY1MDM4MSwxODU0OTk3MjU0LDE0NTg4MjM5MTYsLTExODU0
-MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEyLC
-0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2MCwtNTcw
-NjcxNTE3XX0=
+eyJoaXN0b3J5IjpbMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xND
+I1NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5
+NjM2MCw3MzE4ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNT
+E1NjUwMzgxLDE4NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQx
+NDM1MCw5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLT
+EyNjE1NzIwNzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2
+NzE1MTddfQ==
 -->
