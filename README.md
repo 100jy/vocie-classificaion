@@ -40,11 +40,9 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 
 ⑸ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
 
-ㅇ  **DCT()를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
+⑹  **DCT()를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
 
-
-
-
+form : [enter link description here](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/#comment-3266294515)
 
 ```python
 mfcc = librosa.feature.mfcc(x,sr=sr_x)
@@ -66,11 +64,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1NzcyODU0LDE1OTI4Nzk3NzgsMjA4OT
-k1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcx
-NzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMT
-Q0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAx
-MTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5Ny
-wtNzYzNTA4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0
-NjA4MTEyNF19
+eyJoaXN0b3J5IjpbMTI2Mjg2NDIyMCwxNTkyODc5Nzc4LDIwOD
+k5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3
+MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLT
+E0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUw
+MTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjczMTIxOT
+csLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3
+NDYwODExMjRdfQ==
 -->
