@@ -222,7 +222,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 >김동률
 >
 >[soundcloud](https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb)
-[![Video Label](https://data.silhouette-ac.com/data/thumbnails/93/93379c773fed1d12988535934bd7d0ce_t.jpeg)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
+[![Video Label](https://data.silhouette-ac.com/data/thumbnails/93/93379c773fed1d12988535934bd7d0ce_t.jpeg){: width="100" height="100"}](https://youtu.be/uLR1RNqJ1Mw?t=0s)
 
 
 >로이킴
@@ -241,7 +241,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc1OTgwOTQsMTk4OTA5ODQ1NCwxMj
+eyJoaXN0b3J5IjpbLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMj
 IzNzQyODMzLC0xNDI1NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5
 OTIyNjYsMjA3NjA5NjM2MCw3MzE4ODIzMSwxMDA3MzU0MTg0LD
 EyMTY5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5OTcyNTQsMTQ1ODgy
