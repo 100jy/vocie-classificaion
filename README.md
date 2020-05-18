@@ -1,6 +1,4 @@
-
-1. TOC
-{:toc}
+ - List item
 
 # 개요
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
@@ -59,10 +57,10 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MzM5NDI2LC0xOTc2NDE1MTkxLC05NT
-AxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5
-NywtNzYzNTA4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMT
-c0NjA4MTEyNCwtMTQ4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5
-NTIsOTY2NjU3MjA2LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLT
-MxMDI3OTI1LDM2MDI1MTcxMF19
+eyJoaXN0b3J5IjpbMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOT
+UwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjczMTIx
+OTcsLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLT
+E3NDYwODExMjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4
+OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC
+0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
 -->
