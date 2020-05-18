@@ -42,7 +42,9 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 ⑸ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
 
 ⑹  **DCT(Discrete Cosine Transform)를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
-> DCT는 DFT과 유사한 역할을 하며 
+> DCT는 DFT과 유사한 역할을 하며 신호 성분이 낮은 주파수에 몰리게 되는 *에너지 집중 현상*이 나타나는 특징이 있다.  이는 고주파수의 
+  
+출처: [https://crynut84.tistory.com/61](https://crynut84.tistory.com/61) [Life is Dynamic]
 
 form : [MFCC tutorial](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/#comment-3266294515)
 
@@ -74,11 +76,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0Mj
-IwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2
-MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNzQ3LC
-0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0NTI3
-OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAxMTYwNT
-csMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5NywtNzYz
-NTA4ODk2XX0=
+eyJoaXN0b3J5IjpbLTEzNjg4NDUxMDgsOTQwMDcxODk2LDQzMj
+czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
+NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
+0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
+NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
+kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
+NzMxMjE5N119
 -->
