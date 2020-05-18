@@ -2,6 +2,7 @@
 
 * [개요](#개요)
 * [Data pre-processing](#Data-pre-processing)
+	+ [Vocal extraction and VAD](#Vocal-extraction-and-VAD)
 
 
 
@@ -62,11 +63,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzOTIxNzc2LC01NzA2NzE1MTcsLTEzMD
-I1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3
-NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLT
-E5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3
-MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OS
-wxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgyOTA2NDQsOTY0
-NjA4OTUyXX0=
+eyJoaXN0b3J5IjpbMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMz
+AyNTQ0NjA1LC0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0
+NzU3LDYxODI0NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC
+0xOTc2NDE1MTkxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5
+NzIxOTgzLDM2NzMxMjE5NywtNzYzNTA4ODk2LDE2NDI4NzUzOD
+ksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMTQ4MjkwNjQ0LDk2
+NDYwODk1Ml19
 -->
