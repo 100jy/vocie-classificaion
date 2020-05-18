@@ -187,7 +187,7 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 
 >CNN model을 이용한 분류 결과
 >
->![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png){: width="100" height="100"}
+>![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
 이후, 해당 결과를 바탕으로 군집 내에서 가장 유사한 보컬을 찾아보면 
 
@@ -241,11 +241,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI2OTM1OCwtMTQ1ODY5Mzk2MSwxOT
-g5MDk4NDU0LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAy
-Nzc0MjcsLTE5ODk5MjI2NiwyMDc2MDk2MzYwLDczMTg4MjMxLD
-EwMDczNTQxODQsMTIxNjk5MzYzNSw1MTU2NTAzODEsMTg1NDk5
-NzI1NCwxNDU4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MDA3MTg5Ni
-w0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTky
-ODc5Nzc4XX0=
+eyJoaXN0b3J5IjpbLTE0NTg2OTM5NjEsLTE0NTg2OTM5NjEsMT
+k4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2NDI1LC0xMzAw
+Mjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5NjM2MCw3MzE4ODIzMS
+wxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5
+OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5NDAwNzE4OT
+YsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5
+Mjg3OTc3OF19
 -->
