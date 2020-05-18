@@ -92,6 +92,8 @@ height="450">
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
+<img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png" width="700" height="450"> 
+
 # Classification by Deep-Learning model
 
 전처리를 거친 곡의 MFCC를 feature로 하여 label을 Classification 하는 신경망 모델들을 학습 시켜 볼 것이다.
@@ -244,11 +246,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NjE3NTQsLTE0NDY4NjY5MTUsNDI1ND
-QzMjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4NDU0
-LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0MjcsLT
-E5ODk5MjI2NiwyMDc2MDk2MzYwLDczMTg4MjMxLDEwMDczNTQx
-ODQsMTIxNjk5MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxND
-U4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTgxOTM0Mjk3OCwtMTQ0Njg2NjkxNSw0Mj
+U0NDMyNTYsMTc2NzY4OTM3LC0xNDU4NjkzOTYxLDE5ODkwOTg0
+NTQsMTIyMzc0MjgzMywtMTQyNTUzNjQyNSwtMTMwMDI3NzQyNy
+wtMTk4OTkyMjY2LDIwNzYwOTYzNjAsNzMxODgyMzEsMTAwNzM1
+NDE4NCwxMjE2OTkzNjM1LDUxNTY1MDM4MSwxODU0OTk3MjU0LD
+E0NTg4MjM5MTYsLTExODU0MTQzNTAsOTQwMDcxODk2LDQzMjcz
+MjUwMl19
 -->
