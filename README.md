@@ -10,32 +10,8 @@ from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-U-Net)
 
 사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 Vocal만을 추출하였다.이후 이 음성에서 보컬이 등장하는 구간을 찾아주어 나머지 구간을 제거해 준다. 이를 VAD(Voice Active Detection)라고 한다. 
 
-## Sampling
-sampling from continuous signal to create discrete array data. 
-to
-do this, choose the sampling tate, that determines how tight intervals between
-samples are
-
-```python
-import librosa
-local_path=['C:/Users/wnduq/Desktop/input_music/{}','C:/Users/wnduq/Desktop/output_music/{}']
-vocal_only = local_path[1].format('gift_mix/gift_mix.mp3_vocals.wav')
-mixed = local_path[0].format('gift_mix.mp3')
-x , sr_x = librosa.load(vocal_only) #default sr is 22KHZ
-y, sr_y = librosa.load(mixed)
-print(x.shape, sr_x)
-print(y.shape, sr_y)
-```
 
 
-```python
-%matplotlib inline 
-import matplotlib.pyplot as plt
-import librosa.display
-plt.figure(figsize=(14, 5))
-librosa.display.waveplot(x, sr=sr_x)
-plt.title('vocal_only')
-```
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_8_1.png)
 
@@ -69,9 +45,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTIyMTU3OCwtNzYzNTA4ODk2LDE2ND
-I4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMTQ4Mjkw
-NjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2LC04Mz
-Q5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MDI1MTcx
-MF19
+eyJoaXN0b3J5IjpbMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mj
+g3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgyOTA2
+NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcyMDYsLTgzND
+k0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMzYwMjUxNzEw
+XX0=
 -->
