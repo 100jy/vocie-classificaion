@@ -42,7 +42,7 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 ⑸ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
 
 ⑹  **DCT(Discrete Cosine Transform)를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
-> DCT는 DFT과 유사한 역할을 하며 신호 성분이 낮은 주파수에 몰리게 되는 *에너지 집중 현상*이 나타나는 특징이 있다.  이는 고주파수의 
+> DCT는 DFT과 유사한 역할을 하며 처리 이후 에너지가 신호 성분이 낮은 주파수에 몰리게 되는 *에너지 집중 현상*이 나타나는 특징이 있다.  이는 고주파수의 신호에 덜 민감하게 만들려는 전처리의 목적과  맞다
   
 출처: [https://crynut84.tistory.com/61](https://crynut84.tistory.com/61) [Life is Dynamic]
 
@@ -76,7 +76,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4NDUxMDgsOTQwMDcxODk2LDQzMj
+eyJoaXN0b3J5IjpbLTE5NjYxOTQ2MjAsOTQwMDcxODk2LDQzMj
 czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
 NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
 0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
