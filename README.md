@@ -1,10 +1,8 @@
 # 목차
 
-* ORDER 1  
-+ ORDER 1-1  
-+ ORDER 1-2  
-+ ORDER 1-3
-
+ * 개요  
+ * Data pre-processing
+	 + vocal extraction and VAD 
 # 개요
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
@@ -62,11 +60,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzk0MTIyNywtMTQ0NTI3OTI5MSwxMD
-EzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAxMTYwNTcsMjA5MDIw
-MDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5NywtNzYzNTA4ODk2LD
-E2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMTQ4
-MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2LC
-04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MDI1
-MTcxMF19
+eyJoaXN0b3J5IjpbOTg2Njg1MDUzLC0xNDQ1Mjc5MjkxLDEwMT
+M3MjY4NDUsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAw
+MjM1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMT
+Y0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgy
+OTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcyMDYsLT
+gzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMzYwMjUx
+NzEwXX0=
 -->
