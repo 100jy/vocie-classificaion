@@ -152,13 +152,23 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
                          epochs =epochs, validation_split=0.1, verbose=1, callbacks = [checkpointer])
 ```  
 > 결과
+> Epoch 500/500
+1209/1209 [==============================] - 31s 25ms/step - loss: 0.0838 - acc: 0.9801 - val_loss: 0.9971 - val_acc: 0.7259
+> test_정확도 : 0.6927083333333334
+
+> 학습과정
 > 
+> ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/CNN_hist.png)
+
+>테스트 셋 결과에 대한 confusion matrix
+>
+>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NzA3MjM3LC0xMTg1NDE0MzUwLDk0MD
-A3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3
-NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMT
-MwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgw
-NDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NS
-wtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5
-OTcyMTk4M119
+eyJoaXN0b3J5IjpbMTA2NDM0OTIzNywtMTE4NTQxNDM1MCw5ND
+AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
+NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
+EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
+MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4ND
+UsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0z
+OTk3MjE5ODNdfQ==
 -->
