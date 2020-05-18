@@ -57,7 +57,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 # Labeling by unsupervised learning
  곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨
- **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.     
+ **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.  
+    
 ## Dimension reduction by Auto Encoder
 오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 군집화 해 볼 것이다.
 
@@ -79,7 +80,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
 # Classification by Deep-Learning model
+
 전처리를 거친 곡의 MFCC를 feature로 하여 label을 Classification 하는 신경망 모델들을 학습 시켜 볼 것이다.
+
 ## MLP model
 
 ```python
@@ -108,6 +111,7 @@ testset 정확도 : 0.75
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/MLP_hist.png)
 
 테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
+
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
 
 group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데이터 수가 비교적 부족하며,  group4와 특성도 유사하기 때문으로 보인다.
@@ -117,7 +121,7 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxNjMyMDg2LDk0MDA3MTg5Niw0MzI3Mz
+eyJoaXN0b3J5IjpbODgyODc5MDk0LDk0MDA3MTg5Niw0MzI3Mz
 I1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4
 LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMT
 YwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYx
