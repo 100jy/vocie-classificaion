@@ -16,7 +16,8 @@ VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/
 
 ## Feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
-MFCC는 10~20개의 스펙트럼의 subset이다. subset을 만들 때, 인간의 청각 시스템을 모방한 변환 함수를 이용하여 **고음역대의 변화에 덜 민감하게** 필터링한다.
+MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **고음역대의 변화에 덜 민감하게** 필터링한다.
+우선 입력 신호를 일정한 간격의 frame으로 나눈 뒤  프레임 마다의  Spectogram을 만든다.  Spectogram은 도메인을 
 
 ```python
 mfcc = librosa.feature.mfcc(x,sr=sr_x)
@@ -38,9 +39,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0ODcwNjg3LDM2NzMxMjE5NywtNzYzNT
-A4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEy
-NCwtMTQ4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2Nj
-U3MjA2LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1
-LDM2MDI1MTcxMF19
+eyJoaXN0b3J5IjpbMTE3MDU2NDE0OCwzNjczMTIxOTcsLTc2Mz
+UwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3NDYwODEx
+MjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2Nj
+Y1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzky
+NSwzNjAyNTE3MTBdfQ==
 -->
