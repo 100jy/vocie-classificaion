@@ -56,7 +56,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
  곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨
  **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.     
 ## Dimension reduction by Auto Encoder
-### Stacked Auto E
+오토인코더는 manifold learning을 위해 주로 이용되며, 주로 
+### Stacked Auto Encoder
 
 ### K-MEANs
 
@@ -67,7 +68,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDc5MDYxMiwxNTkyODc5Nzc4LDIwOD
+eyJoaXN0b3J5IjpbLTgyMzY5NDI3NCwxNTkyODc5Nzc4LDIwOD
 k5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3
 MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLT
 E0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUw
