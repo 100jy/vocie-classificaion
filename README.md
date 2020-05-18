@@ -4,7 +4,7 @@
 * [Data pre-processing](#Data-pre-processing)
 	+ [Vocal extraction and VAD](#Vocal-extraction-and-VAD)
 	+ [Feature extraction](#Feature-extraction)
-		+ [Mel-Frequency Cepstral Coefficients(MFCCs)](#Mel-Frequency-Cepstral-Coefficients(MFCCs))
+		+ [Mel-Frequency Cepstral Coefficients(MFCCs)](#Mel-Frequency-Cepstral-Coefficients)
 * [Labeling by unsupervised learning](#Labeling-by-unsupervised-learning) 
 
 
@@ -27,7 +27,7 @@ VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/sam_fig_2.png)
 
 ## Feature extraction
-### Mel-Frequency Cepstral Coefficients(MFCCs)
+### Mel-Frequency Cepstral Coefficients
 MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **고음역대의 변화에 덜 민감하게** 필터링한다.
 
 
@@ -232,11 +232,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjA2NzU1LDIwNzYwOTYzNjAsNzMxOD
-gyMzEsMTAwNzM1NDE4NCwxMjE2OTkzNjM1LDUxNTY1MDM4MSwx
-ODU0OTk3MjU0LDE0NTg4MjM5MTYsLTExODU0MTQzNTAsOTQwMD
-cxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2
-LDE1OTI4Nzk3NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMz
-AyNTQ0NjA1LC0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0
-NzU3XX0=
+eyJoaXN0b3J5IjpbMjAwMjk0OTI4NSwyMDc2MDk2MzYwLDczMT
+g4MjMxLDEwMDczNTQxODQsMTIxNjk5MzYzNSw1MTU2NTAzODEs
+MTg1NDk5NzI1NCwxNDU4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MD
+A3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3
+NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMT
+MwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgw
+NDc1N119
 -->
