@@ -164,13 +164,13 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 >
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_CNN.png)
 
-대부분의 그룹을  group4로 잘못 분류하는 경향이 있다. 이는 **group4의 데이터 수가** 다른 그룹의 데이터 수 보다  **매우 많기 때문**인 것으로 보인다.
+대부분의 그룹을  group4로 잘못 분류하는 경향이 있다. 이는 **group4의 데이터 수가** 다른 그룹의 데이터 수보다  **매우 많기 때문**인 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDgwODA1MCwxNDU4ODIzOTE2LC0xMT
-g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
-MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
-U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
-MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOT
-EsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIw
-OTAyMDAyMzVdfQ==
+eyJoaXN0b3J5IjpbNDAyMTQ1ODc2LDE0NTg4MjM5MTYsLTExOD
+U0MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEy
+LC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2MCwtNT
+cwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNzQ3LC0xMjcy
+NDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0NTI3OTI5MS
+wxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAxMTYwNTcsMjA5
+MDIwMDIzNV19
 -->
