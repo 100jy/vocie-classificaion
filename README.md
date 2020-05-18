@@ -225,7 +225,6 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 >[soundcloud](https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb)
 
 
-
 >로이킴
 >
 >[soundcloud](https://soundcloud.com/yb-100/test2-1/s-wqZu1I7GB6i)
@@ -242,11 +241,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDY2NjYsMTc2NzY4OTM3LC0xNDU4Nj
-kzOTYxLDE5ODkwOTg0NTQsMTIyMzc0MjgzMywtMTQyNTUzNjQy
-NSwtMTMwMDI3NzQyNywtMTk4OTkyMjY2LDIwNzYwOTYzNjAsNz
-MxODgyMzEsMTAwNzM1NDE4NCwxMjE2OTkzNjM1LDUxNTY1MDM4
-MSwxODU0OTk3MjU0LDE0NTg4MjM5MTYsLTExODU0MTQzNTAsOT
-QwMDcxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcy
-MDc2XX0=
+eyJoaXN0b3J5IjpbLTg1ODUwOTMwNCwxNzY3Njg5MzcsLTE0NT
+g2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2
+NDI1LC0xMzAwMjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5NjM2MC
+w3MzE4ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUw
+MzgxLDE4NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MC
+w5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1
+NzIwNzZdfQ==
 -->
