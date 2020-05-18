@@ -1,7 +1,7 @@
 # 개요
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
-{:toc}
+{: toc}
 
 # Data pre-processing
 
@@ -56,10 +56,10 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMD
-kwMjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4
-OTYsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC
-0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcy
-MDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMz
-YwMjUxNzEwXX0=
+eyJoaXN0b3J5IjpbLTE4NTc2OTQ5NzcsLTE5NzY0MTUxOTEsLT
+k1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEy
+MTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC
+0xNzQ2MDgxMTI0LC0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYw
+ODk1Miw5NjY2NTcyMDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3OS
+wtMzEwMjc5MjUsMzYwMjUxNzEwXX0=
 -->
