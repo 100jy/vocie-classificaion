@@ -80,7 +80,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 다음과 같이 인코더와 디코더 부분이 **대칭**을 이루는 AE를  *Stacked Auto Encoder*라고 한다. 이때 인코더와 디코더는 가중치를 서로 공유한다.
 
 <img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/Structure-of-Stacked-Autoencoders.png" width="700" 
-height="370"> 
+height="450"> 
 
 [전체 코드](..)
 > 학습결과 : epoch : 999, Train MSE : 0.09582
@@ -244,11 +244,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY4NjY5MTUsNDI1NDQzMjU2LDE3Nj
-c2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4NDU0LDEyMjM3NDI4
-MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0MjcsLTE5ODk5MjI2Ni
-wyMDc2MDk2MzYwLDczMTg4MjMxLDEwMDczNTQxODQsMTIxNjk5
-MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxNDU4ODIzOTE2LC
-0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIy
-MDYxMl19
+eyJoaXN0b3J5IjpbNzM4NjE3NTQsLTE0NDY4NjY5MTUsNDI1ND
+QzMjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4NDU0
+LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0MjcsLT
+E5ODk5MjI2NiwyMDc2MDk2MzYwLDczMTg4MjMxLDEwMDczNTQx
+ODQsMTIxNjk5MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxND
+U4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1
+MDJdfQ==
 -->
