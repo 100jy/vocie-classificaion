@@ -83,6 +83,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 전처리를 거친 곡의 MFCC를 feature로 하여 label을 Classification 하는 신경망 모델들을 학습 시켜 볼 것이다.
 
+[전체 코드](..)
+
 ## MLP model
 
 **22명의 가수**의 **총 920곡**에 대해  **20차원  벡터**를 추출하여 분류해보았다. 
@@ -168,14 +170,18 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 
 # Input test
 
-새로운 입력에 대해 어느 군집으로 분류하는 지를 테스트 해보고 코사인 유사도를 기반으로 가장 유사한 보컬을 찾아주었다.
+[전체 코드](..)
+
+새로운 입력에 대해 어느 군집으로 분류하는 지를 테스트 해보고 코사인 유사도를 기반으로 **가장 유사한 보컬을 찾아주었다.**
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDQyODQ0NywxNDU4ODIzOTE2LC0xMT
-g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
-MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
-U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
-MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOT
-EsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIw
-OTAyMDAyMzVdfQ==
+eyJoaXN0b3J5IjpbMjYxODIyNzk3LDE0NTg4MjM5MTYsLTExOD
+U0MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEy
+LC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2MCwtNT
+cwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNzQ3LC0xMjcy
+NDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0NTI3OTI5MS
+wxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAxMTYwNTcsMjA5
+MDIwMDIzNV19
 -->
