@@ -201,17 +201,20 @@ def get_singer(db, cluster, vector):
 get_singer(db, list_culster[predict_CNN[0]], x_mean)
 ```
 
->가장 유사한 가수 : 로이킴
+>CNN model을 이용한 가장 유사한 가수 : 로이킴
 유사도 : 0.1437
 
->CNN model을 이용한 분류 결과
+>MLP model을 이용한 가장 유사한 가수
+유사도 : -0.1139
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMjgzOSwxODU0OTk3MjU0LDE0NTg4Mj
-M5MTYsLTExODU0MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwt
-Mjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OT
-k1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcx
-NzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMT
-Q0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAx
-MTYwNTddfQ==
+eyJoaXN0b3J5IjpbLTIwNDU2OTUwNTAsMTg1NDk5NzI1NCwxND
+U4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1
+MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LD
+IwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYw
+NTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMj
+MsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwt
+OTUwMTE2MDU3XX0=
 -->
