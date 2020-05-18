@@ -125,14 +125,40 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 
 ## CNN model
 
-이전의 모델과는 다르게 22명의 가수의 총 1920곡에 대해  96000차원  벡터를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 200x160의 3개의 channel을 가지는 형태로 reshape 해주었다. 이후 VGG 16 model로 부터 전이학습을 하여 모델을  
+이전의 모델과는 다르게 22명의 가수의 총 1920곡에 대해  96000차원  벡터를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 200x160의 3개의 channel을 가지는 형태로 reshape 해주었다. 이후 VGG16 model을 이용하여 전이학습을 하여 모델을 학습 시켰다.
+```python
+from tensorflow.python.keras.applications import VGG16
+from tensorflow.python.keras.models import *
 
+backend.clear_session()
+
+VGG = VGG16(weights='imagenet', include_top=False,input_shape=(num_rows,num_cols,num_cha))
+VGG.trainable =False
+pre_model = Sequential()
+
+pre_model.add(VGG)
+pre_model.add(GlobalAveragePooling2D())
+pre_model.add(Dense(100,activation = 'relu'))
+pre_model.add(Dropout(0.3))
+pre_model.add(Dense(5,activation = 'softmax'))
+
+epochs = 500
+batch_size = 50
+
+checkpointer = ModelCheckpoint(filepath='./best_cnn_VGG.hdf5')
+adam = optimizers.Adam(lr = 0.001)
+pre_model.compile(loss = 'categorical_crossentropy',metrics=['accuracy'],optimizer=adam)
+hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
+                         epochs =epochs, validation_split=0.1, verbose=1, callbacks = [checkpointer])
+```  
+> 결과
+> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDQ1NjA5OSwtMTE4NTQxNDM1MCw5ND
-AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
-NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
-EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
-MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4ND
-UsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0z
-OTk3MjE5ODNdfQ==
+eyJoaXN0b3J5IjpbNjg0NzA3MjM3LC0xMTg1NDE0MzUwLDk0MD
+A3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3
+NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMT
+MwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgw
+NDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NS
+wtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5
+OTcyMTk4M119
 -->
