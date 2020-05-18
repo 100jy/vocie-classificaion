@@ -1,5 +1,7 @@
 from pre_processing import *
 import pandas as pd
+import warnings
+warnings.filterwarnings("ignore")
 
 
 def build_data():
@@ -19,10 +21,9 @@ def build_data():
     input_lo = 'C:/Users/wnduq/Desktop/input_music/sep_by_singer'
     output_lo = 'C:/Users/wnduq/Desktop/output_music'
 
-    cut_music(song_list, input_lo, output_lo)
-    voice_extraction(cut_list, output_lo, output_lo)
-    '''
-    VAD(cut_list, output_lo, output_lo)
+    #cut_music(song_list, input_lo, output_lo)
+    #voice_extraction(cut_list, output_lo, output_lo)
+    #VAD(cut_list, output_lo, output_lo)
     sam_list = sampling(vocal_list, output_lo)
     data = make_Feature(sam_list)
 
@@ -30,8 +31,8 @@ def build_data():
     data.index = vocal_list
     #data = mix_data(data)
     print(data)
+    #data.to_csv('data_10sec.csv', encoding='euc-kr')
     data.to_csv('data.csv', encoding='euc-kr')
-    '''
 
 
 if __name__ == '__main__':
