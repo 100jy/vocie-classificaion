@@ -42,6 +42,7 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 ⑸ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
 
 ⑹  **DCT(Discrete Cosine Transform)를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
+> DCT는 DFT과 유사한 역할을 하며 
 
 form : [MFCC tutorial](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/#comment-3266294515)
 
@@ -73,11 +74,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNj
-E1NzIwNzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1
-MTcsLTEzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOT
-ksMzk4MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3
-MjY4NDUsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMj
-M1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0
-Mjg3NTM4OV19
+eyJoaXN0b3J5IjpbOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0Mj
+IwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2
+MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNzQ3LC
+0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0NTI3
+OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAxMTYwNT
+csMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5NywtNzYz
+NTA4ODk2XX0=
 -->
