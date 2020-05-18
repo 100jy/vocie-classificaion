@@ -120,12 +120,15 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B94.png)
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
+
+## CNN model
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU0MTQzNTAsOTQwMDcxODk2LDQzMj
-czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
-NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
-0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
-NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
-kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
-NzMxMjE5N119
+eyJoaXN0b3J5IjpbLTkxNDk5NjI0MCwtMTE4NTQxNDM1MCw5ND
+AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
+NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
+EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
+MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4ND
+UsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0z
+OTk3MjE5ODNdfQ==
 -->
