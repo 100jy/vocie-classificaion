@@ -208,14 +208,17 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 유사도 : -0.1139
 
 
-
+김동률
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/823104952%3Fsecret_token%3Ds-SHUlxKbz9nb&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+실제 음성
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/823105480%3Fsecret_token%3Ds-JgaHYdTpbz3&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYyNjM1MjYsMTAwNzM1NDE4NCwxMj
-E2OTkzNjM1LDUxNTY1MDM4MSwxODU0OTk3MjU0LDE0NTg4MjM5
-MTYsLTExODU0MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMj
-c0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1
-MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNz
-Q3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0
-NTI3OTI5MV19
+eyJoaXN0b3J5IjpbMzU2MDQ3MTM5LDEwMDczNTQxODQsMTIxNj
+k5MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxNDU4ODIzOTE2
+LC0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3ND
+IyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIz
+NjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0Ny
+wtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUy
+NzkyOTFdfQ==
 -->
