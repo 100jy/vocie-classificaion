@@ -6,19 +6,10 @@
 먼저 가수들의 노래에서  'WaveUNet' 신경망을 이용하여 곡에서 **반주를 제거**하여 보컬만을 남긴다. 이후 분리된 보컬에서 **MFCC를 추출**한다.  추출된 MFCC를 이용하여 **가수들을 clustering**하여 그 결과를 labeling에 이용한다.label을 y값으로 이용하여 supervised learning을 해 볼 수 있다.이때 **CNN model과 MLP model을 이용하여 성능을 비교**하여 볼 것이다.  
  
 ## Vocal extraction and VAD
-from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-U-Net)
+Waveunet from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-U-Net)
+VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/py-webrtcvad)
 
 사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 Vocal만을 추출하였다.이후 이 음성에서 보컬이 등장하는 구간을 찾아주어 나머지 구간을 제거해 준다. 이를 VAD(Voice Active Detection)라고 한다. 
-
-
-
-
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_8_1.png)
-
-
-## VAD
-[webrtcvad](https://github.com/wiseman/py-webrtcvad)를 이용하여 반주가 제거 된 음원에서 보컬이 등장하는 구간 만을 추출하여 준다.
- 
 
 ## Feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
@@ -45,9 +36,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mj
-g3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgyOTA2
-NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcyMDYsLTgzND
-k0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMzYwMjUxNzEw
-XX0=
+eyJoaXN0b3J5IjpbMTA0MjkyNDMyOCwzNjczMTIxOTcsLTc2Mz
+UwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3NDYwODEx
+MjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2Nj
+Y1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzky
+NSwzNjAyNTE3MTBdfQ==
 -->
