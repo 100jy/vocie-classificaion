@@ -71,18 +71,12 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
 
-
-
-
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig3.png)
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3OTA0NDg0NSwtMTI2MTU3MjA3NiwxNT
-kyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0
-NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Ny
-w2MTgyNDYxMjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3
-NjQxNTE5MSwtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMT
-k4MywzNjczMTIxOTcsLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5
-NzM1MjMyNjRdfQ==
+eyJoaXN0b3J5IjpbLTE3MzM5Njk1NDIsLTEyNjE1NzIwNzYsMT
+U5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1
+NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NT
+csNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5
+NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3Mj
+E5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwx
+OTczNTIzMjY0XX0=
 -->
