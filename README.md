@@ -34,11 +34,13 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
  **⑵ 프레임 마다 Periodogram Spectral Estimate을 만든다**. 
 >Periodogram 은 도메인을 frequency로 변환하여 각 frequency마다의 음압을 계산하여  각 frame마다의 배음구조를 확인 할 수 있다. 이 과정은 FFT(Fast Fourier Transform)을 이용하여 수행된다.
 
-⑶ 이렇게 나온 결과를 **Power spectrum**이라 하고 이 Power spectrum에 **Mel Filter bank**를 적용한다
+⑶ 이렇게 나온 결과를 **Power spectrum**이라 하고 이 Power spectrum에 **Mel Filter bank**를 적용한 후,
 
-⑷ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
+⑷ 각 	필터의 에너지를 더해준다. 
 
-⑸ **DCT()를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
+⑸ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
+
+ㅇ  **DCT()를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
 
 
 
@@ -64,11 +66,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01Nz
-A2NzE1MTcsLTEzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0
-MzYxOTksMzk4MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLD
-EwMTM3MjY4NDUsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkw
-MjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4OT
-YsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0x
-NDgyOTA2NDRdfQ==
+eyJoaXN0b3J5IjpbMzU1NzcyODU0LDE1OTI4Nzk3NzgsMjA4OT
+k1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcx
+NzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMT
+Q0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAx
+MTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5Ny
+wtNzYzNTA4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0
+NjA4MTEyNF19
 -->
