@@ -174,18 +174,18 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 
 새로운 입력에 대해 어느 군집으로 분류하는 지를 테스트 해보고 코사인 유사도를 기반으로 **가장 유사한 보컬을 찾아주었다.**
 
-CNN model을 이용한 분류 결과
-
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
+>CNN model을 이용한 분류 결과
+>
+>![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMwNTUzNTAsMTQ1ODgyMzkxNiwtMT
-E4NTQxNDM1MCw5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2
-MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC
-01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEy
-NzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5Mj
-kxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOTEsLTk1MDExNjA1Nywy
-MDkwMjAwMjM1XX0=
+eyJoaXN0b3J5IjpbMTYyNzE1MDI0NiwxNDU4ODIzOTE2LC0xMT
+g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
+MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
+U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
+MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOT
+EsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIw
+OTAyMDAyMzVdfQ==
 -->
