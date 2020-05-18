@@ -3,11 +3,11 @@
 
 # Data pre-processing
 
-먼저 가수들의 노래에서  'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거하여 보컬만을 남긴다. 이후 분리된 보컬에서 **MFCC를 추출**한다.  추출된 MFCC를 이용하여 가수들을 clustering하여 그 결과를 labeling에 이용한다.label을 y값으로 이용하여 supervised learning을 해 볼 수 있다.이때 **CNN model과 MLP model을 이용하여 성능을 비교**하여 볼 것이다.  
+먼저 가수들의 노래에서  'WaveUNet' 신경망을 이용하여 곡에서 **반주를 제거**하여 보컬만을 남긴다. 이후 분리된 보컬에서 **MFCC를 추출**한다.  추출된 MFCC를 이용하여 **가수들을 clustering**하여 그 결과를 labeling에 이용한다.label을 y값으로 이용하여 supervised learning을 해 볼 수 있다.이때 **CNN model과 MLP model을 이용하여 성능을 비교**하여 볼 것이다.  
  
 ## Vocal extraction by Waveunet
-Vocal extracion from signal datas by using
-Waveunet, cnn network designed for separating vocal from song
+from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-U-Net)
+
 
 ```python
 from Predict import ex
@@ -78,9 +78,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY5ODc0MDcsLTc2MzUwODg5NiwxNj
-QyODc1Mzg5LDE5NzM1MjMyNjQsLTE3NDYwODExMjQsLTE0ODI5
-MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2NjY1NzIwNiwtOD
-M0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTM2NDA2MjgxMiwtNzYzNTA4ODk2LDE2ND
+I4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMTQ4Mjkw
+NjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2LC04Mz
+Q5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MDI1MTcx
+MF19
 -->
