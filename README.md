@@ -131,7 +131,9 @@ height="450">
 
 >테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
 >
->![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
+>
+><img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png" width="700" 
+height="450"> 
 
 group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데이터 수가 비교적 부족하며,  group4와 특성도 유사하기 때문으로 보인다.
 > 그룹4와 그룹5 
@@ -246,11 +248,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDQwOTY5NCwtODE5MzQyOTc4LC0xND
-Q2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLTE0NTg2OTM5
-NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2NDI1LC
-0xMzAwMjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5NjM2MCw3MzE4
-ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgxLD
-E4NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5NDAw
-NzE4OTZdfQ==
+eyJoaXN0b3J5IjpbMjE2MDE3NjU4LDExNjA0MDk2OTQsLTgxOT
+M0Mjk3OCwtMTQ0Njg2NjkxNSw0MjU0NDMyNTYsMTc2NzY4OTM3
+LC0xNDU4NjkzOTYxLDE5ODkwOTg0NTQsMTIyMzc0MjgzMywtMT
+QyNTUzNjQyNSwtMTMwMDI3NzQyNywtMTk4OTkyMjY2LDIwNzYw
+OTYzNjAsNzMxODgyMzEsMTAwNzM1NDE4NCwxMjE2OTkzNjM1LD
+UxNTY1MDM4MSwxODU0OTk3MjU0LDE0NTg4MjM5MTYsLTExODU0
+MTQzNTBdfQ==
 -->
