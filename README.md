@@ -85,7 +85,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ## MLP model
 
-22명의 가수의 총 920곡에 대해  20차원  벡터를 추출하여 분류해보았다. 
+**22명의 가수**의 **총 920곡**에 대해  **20차원  벡터**를 추출하여 분류해보았다. 
 
 ```python
 #structure
@@ -125,7 +125,7 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 
 ## CNN model
 
-이전의 모델과는 다르게 22명의 가수의 총 1920곡에 대해  96000차원  벡터를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 200x160의 3개의 channel을 가지는 형태로 reshape 해주었다. 이후 VGG16 model을 이용하여 전이학습을 하여 모델을 학습 시켰다.
+이전의 모델과는 다르게 **22명의 가수**의 **총 1920곡**에 대해  **96000차원  벡터**를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 **200x160의 3개의 channel을 가지는 형태**로 reshape 해주었다. 이후 VGG16 model을 이용하여 전이학습을 하여 모델을 학습 시켰다.
 ```python
 from tensorflow.python.keras.applications import VGG16
 from tensorflow.python.keras.models import *
@@ -164,13 +164,13 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 >
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_CNN.png)
 
-대부분의 그룹을  group4로 잘못 분류하는 경향이 있다. 이는 group4의 데이터가 다른 그룹의 데이터보다 수가 매우 많기 때문인 것으로 보인다.
+대부분의 그룹을  group4로 잘못 분류하는 경향이 있다. 이는 **group4의 데이터가 다른 그룹의 데이터보다 수가 매우 많기 때문**인 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5ND
-AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
-NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
-EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
-MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4ND
-UsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0z
-OTk3MjE5ODNdfQ==
+eyJoaXN0b3J5IjpbLTMwMzM4MzMxNiwxNDU4ODIzOTE2LC0xMT
+g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
+MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
+U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
+MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOT
+EsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIw
+OTAyMDAyMzVdfQ==
 -->
