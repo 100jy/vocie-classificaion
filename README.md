@@ -60,10 +60,14 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
  **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.     
 ## Dimension reduction by Auto Encoder
 오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 군집화 해 볼 것이다.
+
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/maniford.png)
+
 ### Stacked Auto Encoder
 다음과 같이 인코더와 디코더 부분이 **대칭**을 이루는 AE를  *Stacked Auto Encoder*라고 한다. 이때 인코더와 디코더는 가중치를 서로 공유한다.
+
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/Structure-of-Stacked-Autoencoders.png)
+
 [전체 코드](..)
 > 학습결과 : epoch : 999, Train MSE : 0.09582
 
@@ -71,6 +75,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ### K-MEANs
 2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다. 이 군집 결과를 이용하여 labeling을 해준 뒤, **신경망 모델을 이용하여 classification을** 해볼 것이다.
+
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
 # Classification by Deep-Learning model
@@ -112,11 +117,11 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTAwNjA5Miw5NDAwNzE4OTYsNDMyNz
-MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
-OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
-E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
-MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOT
-EsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3
-MzEyMTk3XX0=
+eyJoaXN0b3J5IjpbODgxNjMyMDg2LDk0MDA3MTg5Niw0MzI3Mz
+I1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4
+LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMT
+YwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYx
+MjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MS
+wtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjcz
+MTIxOTddfQ==
 -->
