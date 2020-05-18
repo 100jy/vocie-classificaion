@@ -59,7 +59,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 군집화 해 볼 것이다.
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/maniford.png)
 ### Stacked Auto Encoder
-다음과 같이 인코더와 디코더 부분이 대칭을 이루는 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/Structure-of-Stacked-Autoencoders.png)
+다음과 같이 인코더와 디코더 부분이 대칭을 이루는 AE를  *Stacked Auto Encoder*라고 한다,![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/Structure-of-Stacked-Autoencoders.png)
 ### K-MEANs
 
 
@@ -69,11 +69,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzgzNjYwMSwtMTI2MTU3MjA3NiwxNT
-kyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0
-NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Ny
-w2MTgyNDYxMjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3
-NjQxNTE5MSwtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMT
-k4MywzNjczMTIxOTcsLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5
-NzM1MjMyNjRdfQ==
+eyJoaXN0b3J5IjpbLTE1ODU0MTgzOTEsLTEyNjE1NzIwNzYsMT
+U5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1
+NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NT
+csNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5
+NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3Mj
+E5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwx
+OTczNTIzMjY0XX0=
 -->
