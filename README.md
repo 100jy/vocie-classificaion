@@ -207,16 +207,16 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 >MLP model을 이용한 가장 유사한 가수
 유사도 : -0.1139
 
-[enter link description here](https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb)
+
 
 <iframe width="640" height="360" src="https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb"  
  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzM1NDE4NCwxMjE2OTkzNjM1LDUxNT
-Y1MDM4MSwxODU0OTk3MjU0LDE0NTg4MjM5MTYsLTExODU0MTQz
-NTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEyLC0xMj
-YxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2MCwtNTcwNjcx
-NTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNzQ3LC0xMjcyNDM2MT
-k5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0NTI3OTI5MSwxMDEz
-NzI2ODQ1XX0=
+eyJoaXN0b3J5IjpbNDIxODI5MDQxLDEwMDczNTQxODQsMTIxNj
+k5MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxNDU4ODIzOTE2
+LC0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3ND
+IyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIz
+NjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0Ny
+wtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUy
+NzkyOTFdfQ==
 -->
