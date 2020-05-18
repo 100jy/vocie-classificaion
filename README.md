@@ -1,5 +1,7 @@
-{: toc}
-
+```
+- TOC
+{:toc}
+```
 # 개요
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
@@ -57,7 +59,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQzMzM1NjMsLTE5NzY0MTUxOTEsLT
+eyJoaXN0b3J5IjpbLTE0NDI5Mzc3ODQsLTE5NzY0MTUxOTEsLT
 k1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEy
 MTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC
 0xNzQ2MDgxMTI0LC0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYw
