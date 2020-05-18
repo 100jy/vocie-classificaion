@@ -168,13 +168,14 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 
 # Input test
 
-새로운 입력에 대해 어느 군집으로 분류하는 지를 테스트 해보고 코사인 유사도를 기반으로 가장 ㅇ
+새로운 입력에 대해 어느 군집으로 분류하는 지를 테스트 해보고 코사인 유사도를 기반으로 가장 유사한 보컬을 찾아주었다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MzI4MjgyLDE0NTg4MjM5MTYsLTExOD
-U0MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMjc0MjIwNjEy
-LC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1MjM2MCwtNT
-cwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNzQ3LC0xMjcy
-NDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0NTI3OTI5MS
-wxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAxMTYwNTcsMjA5
-MDIwMDIzNV19
+eyJoaXN0b3J5IjpbLTg5MDQyODQ0NywxNDU4ODIzOTE2LC0xMT
+g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
+MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
+U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
+MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUyNzkyOT
+EsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUwMTE2MDU3LDIw
+OTAyMDAyMzVdfQ==
 -->
