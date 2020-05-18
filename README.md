@@ -1,6 +1,8 @@
 # 개요
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
+{:toc}
+
 # Data pre-processing
 
 먼저 가수들의 노래에서  'WaveUNet' 신경망을 이용하여 곡에서 **반주를 제거**하여 보컬만을 남긴다. 이후 분리된 보컬에서 **MFCC를 추출**한다.  추출된 MFCC를 이용하여 **가수들을 clustering**하여 그 결과를 labeling에 이용한다.label을 y값으로 이용하여 supervised learning을 해 볼 수 있다.이때 **CNN model과 MLP model을 이용하여 성능을 비교**하여 볼 것이다.  
@@ -54,10 +56,10 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3Mzg4MDgxLC05NTAxMTYwNTcsMjA5MD
-IwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5NywtNzYzNTA4ODk2
-LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMT
-Q4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2
-LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MD
-I1MTcxMF19
+eyJoaXN0b3J5IjpbLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMD
+kwMjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4
+OTYsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC
+0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcy
+MDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMz
+YwMjUxNzEwXX0=
 -->
