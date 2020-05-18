@@ -67,15 +67,15 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 [전체 코드](..)
 > 학습결과 : epoch : 999, Train MSE : 0.09582
 
-*MSE : 0.09582*의 학습 결과는 인코딩 과정에서 **정보 손실이 매우 적다는 것**을 보여준다.  사전에 테스트 해본 PCA의 결과가 0.3 
+*MSE : 0.09582*의 학습 결과는 인코딩 과정에서 **정보 손실이 매우 적다는 것**을 보여준다.  사전에 테스트 해본 PCA의 결과였던 *0.3*정도의 MSE 보다 훨씬 작은 값을 가지는 것을 볼 수 있다. 
 
 ### K-MEANs
 2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다.
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
-
+ 이 군집
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDcwODM1OCw5NDAwNzE4OTYsNDMyNz
+eyJoaXN0b3J5IjpbMTc5OTg2NjIyNyw5NDAwNzE4OTYsNDMyNz
 MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
 OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
 E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
