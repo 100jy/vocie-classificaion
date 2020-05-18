@@ -25,7 +25,7 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 
 ⑶ 이렇게 나온 결과를 Power spectrum이라 하고 이 Power spectrum에 **Mel Filter bank**를 적용한다
 ⑷ 구해진 Filter bank의 에너지에 **log변환**을 취해준다.
-⑸ DCT()
+⑸ DCT()를 적용한 뒤, 나온 coefficient의  
 
 
 
@@ -51,9 +51,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTExMDM2MTYsLTM5OTcyMTk4MywzNj
-czMTIxOTcsLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMy
-NjQsLTE3NDYwODExMjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOT
-Y0NjA4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIy
-Njc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
+eyJoaXN0b3J5IjpbMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2Nz
+MxMjE5NywtNzYzNTA4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2
+NCwtMTc0NjA4MTEyNCwtMTQ4MjkwNjQ0LDk2NDYwODk1Miw5Nj
+Q2MDg5NTIsOTY2NjU3MjA2LC04MzQ5NDIxMjksLTE5NDIyMjI2
+NzksLTMxMDI3OTI1LDM2MDI1MTcxMF19
 -->
