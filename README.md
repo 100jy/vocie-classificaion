@@ -105,14 +105,15 @@ testset 정확도 : 0.75
 테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
 
-group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데이터 수가 부족하며 
+group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데이터 수가 비교적 부족하며,  group4와 특성도 유사하기 때문으로 보인다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYyOTk0NTIsOTQwMDcxODk2LDQzMj
-czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
-NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
-0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
-NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
-kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
-NzMxMjE5N119
+eyJoaXN0b3J5IjpbLTI1Mjc2NzU1MCw5NDAwNzE4OTYsNDMyNz
+MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
+OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
+E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
+MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOT
+EsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3
+MzEyMTk3XX0=
 -->
