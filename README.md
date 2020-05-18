@@ -178,6 +178,8 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 >
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
+이후, 해당 결과를 바탕으로 군집 내에서 가장 유사한 보컬을 찾아보면 
+
 ```python
 from numpy import dot
 from numpy.linalg import norm
@@ -195,12 +197,16 @@ def get_singer(db, cluster, vector):
 
     arr.sort(key=lambda x : x[0])
     return print('가장 유사한 가수 : '+arr[-1][1]+'\n'+'유사도 : '+str(round(arr[-1][0],4)))
+ 
+get_singer(db, list_culster[predict_CNN[0]], x_mean)
 ```
 
 >가장 유사한 가수 : 로이킴
 유사도 : 0.1437
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDgyMDMyMiwxNDU4ODIzOTE2LC0xMT
+eyJoaXN0b3J5IjpbMTg1NDk5NzI1NCwxNDU4ODIzOTE2LC0xMT
 g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
 MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
 U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
