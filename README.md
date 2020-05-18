@@ -164,9 +164,9 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 >
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_CNN.png)
 
-대부분의 그룹을  group4로 잘못 분류하는 경향이 있다. 이는 group4의 데이터가 다른 그룹의 데이터보다 수가 매우 많기 떄문인 것으러
+대부분의 그룹을  group4로 잘못 분류하는 경향이 있다. 이는 group4의 데이터가 다른 그룹의 데이터보다 수가 매우 많기 때문인 것으로 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTU3MjE3NCwtMTE4NTQxNDM1MCw5ND
+eyJoaXN0b3J5IjpbMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5ND
 AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
 NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
 EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
