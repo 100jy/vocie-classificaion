@@ -1,12 +1,12 @@
 # 목차
 
-* [개요](#개요)
+* [Introduction](#Introduction)
 * [Data pre-processing](#Data-pre-processing)
 	+ [Vocal extraction and VAD](#Vocal-extraction-and-VAD)
 
 
 
-# 개요
+# Introduction
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
 
@@ -54,9 +54,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 # Labeling by unsupervised learning
 ## Dimension reduction by Auto Encoder
- 곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 평균을 매겨
- 곡 하나 당 길이 20의 vector로 만들어준다. 그 후 Auto Encoder를 이용하여 이를 2차원으로 축소 시킨 뒤,
- K-means 알고리즘을 이용하여 군집화 시켜볼 것이다.     
+ 곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨
+ **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 군집화 시켜볼 것이다.     
 
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
@@ -67,11 +66,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTg1ODg5LDE1OTI4Nzk3NzgsMjA4OT
-k1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcx
-NzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMT
-Q0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MTkxLC05NTAx
-MTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2NzMxMjE5Ny
-wtNzYzNTA4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0
-NjA4MTEyNF19
+eyJoaXN0b3J5IjpbLTEzOTQ1OTAyNSwxNTkyODc5Nzc4LDIwOD
+k5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3
+MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLT
+E0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUw
+MTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjczMTIxOT
+csLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3
+NDYwODExMjRdfQ==
 -->
