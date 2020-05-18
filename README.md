@@ -188,7 +188,7 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 >CNN model을 이용한 분류 결과
 >
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png =100x200)
-><img src="/uploads/1848994ad25765da30fa8ef3684c67bc/캡처.PNG" width="700" height="370">  
+><img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png" width="700" height="370">  
   
 출처: [https://cutemoomin.tistory.com/112](https://cutemoomin.tistory.com/112) [무민은귀여워]
 
@@ -244,7 +244,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzOTA1NTk2LC0xNDU4NjkzOTYxLDE5OD
+eyJoaXN0b3J5IjpbMTc2NzY4OTM3LC0xNDU4NjkzOTYxLDE5OD
 kwOTg0NTQsMTIyMzc0MjgzMywtMTQyNTUzNjQyNSwtMTMwMDI3
 NzQyNywtMTk4OTkyMjY2LDIwNzYwOTYzNjAsNzMxODgyMzEsMT
 AwNzM1NDE4NCwxMjE2OTkzNjM1LDUxNTY1MDM4MSwxODU0OTk3
