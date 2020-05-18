@@ -125,9 +125,10 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 
 ## CNN model
 
-이전의 모델과는 다르게 22명의 가수의 총 1920곡에 대해  96000차원  벡터를 추출하여 분류해보았다.  
+이전의 모델과는 다르게 22명의 가수의 총 1920곡에 대해  96000차원  벡터를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 200x160의 3개의 channel을 가지는 형태로 reshape 해주었다. 이후 VGG 16 model로 부터 전이학습을 하여 모델을  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTQ4MDI2NiwtMTE4NTQxNDM1MCw5ND
+eyJoaXN0b3J5IjpbMTgxNDQ1NjA5OSwtMTE4NTQxNDM1MCw5ND
 AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
 NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
 EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
