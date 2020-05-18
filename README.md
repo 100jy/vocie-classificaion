@@ -52,8 +52,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ```
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 
-## Dimension reduction by Auto Encoder
- Auto Encoder를 이용하여 변수가 5만 정도 되는 고차원 데이터를 400개 가량의 변수로 축소 시킨다. 
+# Dimension reduction by Auto Encoder
+ 곡에서 얻어진  MFCC는 프레임 당 20여개의  
 ## Labeling by unsupervised learning
 ### K-MEANs
 추출된 특징을 기반으로 k - means 알고리즘을 통해 군집화 한 뒤, 해당 결과를 정답 Label으로 이용.
@@ -64,11 +64,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDQ3MzM1OSwxNTkyODc5Nzc4LDIwOD
-k5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3
-MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLT
-E0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MSwtOTUw
-MTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjczMTIxOT
-csLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3
-NDYwODExMjRdfQ==
+eyJoaXN0b3J5IjpbLTE2MjY4NTkyNjAsMTU5Mjg3OTc3OCwyMD
+g5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLTE2MDU4
+NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2MTIzLC
+0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOTEsLTk1
+MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEyMT
+k3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0x
+NzQ2MDgxMTI0XX0=
 -->
