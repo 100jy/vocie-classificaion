@@ -77,14 +77,28 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 전처리를 거친 곡의 MFCC를 feature로 하여 label을 Classification 하는 신경망 모델들을 학습 시켜 볼 것이다.
 ## MLP model
 
-    enter code here
-
+```python
+#structure
+backend.clear_session()
+model = Sequential()
+model.add(Dense(20, input_shape=(20,), activation = 'relu'))
+model.add(Dropout(0.3))
+#model.add(Dense(5, activation = 'relu'))
+#model.add(Dropout(0.3))
+model.add(Dense(5,activation = 'softmax'))
+#fit
+adam = optimizers.Adam(lr = 0.01)
+checkpointer = ModelCheckpoint(filepath='./save_models/best_MLP.hdf5')
+model.compile(loss = 'categorical_crossentropy',optimizer = adam, metrics = ['accuracy'])
+hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_split = 0.1,
+                                                         callbacks=[checkpointer], verbose=1)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Njk2NjQwMiw5NDAwNzE4OTYsNDMyNz
-MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
-OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
-E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
-MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOT
-EsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3
-MzEyMTk3XX0=
+eyJoaXN0b3J5IjpbMzQ3NzA2NDE5LDk0MDA3MTg5Niw0MzI3Mz
+I1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4
+LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMT
+YwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYx
+MjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MS
+wtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjcz
+MTIxOTddfQ==
 -->
