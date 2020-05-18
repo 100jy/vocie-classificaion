@@ -23,6 +23,8 @@
 
 # Data pre-processing
 
+[전체 코드](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%95/MLP%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%B6%84%EB%A5%98.ipynb)
+
 먼저 가수들의 노래에서  'WaveUNet' 신경망을 이용하여 곡에서 **반주를 제거**하여 보컬만을 남긴다. 이후 분리된 보컬에서 **MFCC를 추출**한다.  추출된 MFCC를 이용하여 **가수들을 clustering**하여 그 결과를 labeling에 이용한다.label을 y값으로 이용하여 supervised learning을 해 볼 수 있다.이때 **CNN model과 MLP model을 이용하여 성능을 비교**하여 볼 것이다.  
  
 ## Vocal extraction and VAD
@@ -192,6 +194,7 @@ height="450">
 # Input test
 
 
+
 새로운 입력에 대해 어느 군집으로 분류하는 지를 테스트 해보고 코사인 유사도를 기반으로 **가장 유사한 보컬을 찾아주었다.**
 
 >CNN model을 이용한 분류 결과
@@ -251,7 +254,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzgwODEzLDEyMjUwMzk3MzYsMTE2MD
+eyJoaXN0b3J5IjpbNTY1NjI5NzM5LDEyMjUwMzk3MzYsMTE2MD
 QwOTY5NCwtODE5MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1
 NiwxNzY3Njg5MzcsLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMj
 IzNzQyODMzLC0xNDI1NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5
