@@ -43,7 +43,7 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 
 ⑹  **DCT(Discrete Cosine Transform)를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
 > DCT는 DFT과 유사한 역할을 하며 처리 이후 에너지가 신호 성분이 낮은 주파수에 몰리게 되는 *에너지 집중 현상*이 나타나는 특징이 있다.  
-[more-info]([https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html](https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html))
+[more info]([https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html](https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html))
 
 form : [MFCC tutorial](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/#comment-3266294515)
 
@@ -75,11 +75,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NTQ4MzgwLDk0MDA3MTg5Niw0MzI3Mz
-I1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4
-LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMT
-YwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYx
-MjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MS
-wtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjcz
-MTIxOTddfQ==
+eyJoaXN0b3J5IjpbLTExNTIzOTUxOTEsOTQwMDcxODk2LDQzMj
+czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
+NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
+0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
+NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
+kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
+NzMxMjE5N119
 -->
