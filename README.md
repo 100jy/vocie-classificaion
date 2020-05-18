@@ -12,7 +12,7 @@
 	+ [MLP model](#MLP-model)
 	+ [CNN model](#CNN-model)
 + [Input test ](#Input-test)
-+  
++ [Conclusion](#Conclusion) 
 	
 
 
@@ -236,15 +236,15 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 
 
-# 결론
+# Conclusion
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc0MTExMDMsMjA3NjA5NjM2MCw3Mz
-E4ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgx
-LDE4NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5ND
-AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
-NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
-EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
-MDQ3NTddfQ==
+eyJoaXN0b3J5IjpbLTE5ODk5MjI2NiwyMDc2MDk2MzYwLDczMT
+g4MjMxLDEwMDczNTQxODQsMTIxNjk5MzYzNSw1MTU2NTAzODEs
+MTg1NDk5NzI1NCwxNDU4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MD
+A3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3
+NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMT
+MwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgw
+NDc1N119
 -->
