@@ -29,6 +29,7 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 
 
  ⑴ 우선 입력 신호를 일정한 간격의 frame으로 나눈 뒤, 
+ 
  ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/1_202N86YExc2Y3JupOZZptQ.png)
 
  **⑵ 프레임 마다 Periodogram Spectral Estimate을 만든다**. 
@@ -72,11 +73,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM5Njk1NDIsLTEyNjE1NzIwNzYsMT
-U5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1
-NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NT
-csNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5
-NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3Mj
-E5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwx
-OTczNTIzMjY0XX0=
+eyJoaXN0b3J5IjpbLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNT
+kyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0
+NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Ny
+w2MTgyNDYxMjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3
+NjQxNTE5MSwtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMT
+k4MywzNjczMTIxOTcsLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5
+NzM1MjMyNjRdfQ==
 -->
