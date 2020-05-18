@@ -73,10 +73,12 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다. 이 군집 결과를 이용하여 labeling을 해준 뒤, **신경망 모델을 이용하여 classification을** 해볼 것이다.
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
-
+# Classification by Deep-Learning model
+rhr
+## MLP model
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA0MDY1MTgsOTQwMDcxODk2LDQzMj
+eyJoaXN0b3J5IjpbLTEyMjE1MzA4OTYsOTQwMDcxODk2LDQzMj
 czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
 NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
 0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
