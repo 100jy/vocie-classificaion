@@ -219,12 +219,21 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 >실제 음성
 >
 ><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/823105480%3Fsecret_token%3Ds-JgaHYdTpbz3&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+
+비교적 비슷한 목소리와 부르는 스타일의 가수를 찾아낸 것으로 보인다.
+
+
+
+# 결론
+
+mfcc를 이용한 가수들의 분류가 직관적으로 분류되는 기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjA5NjM2MCw3MzE4ODIzMSwxMDA3Mz
-U0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5OTcyNTQs
-MTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5NDAwNzE4OTYsNDMyNz
-MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
-OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
-E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
-MTIzXX0=
+eyJoaXN0b3J5IjpbLTEwMzUyMzcxMTksMjA3NjA5NjM2MCw3Mz
+E4ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgx
+LDE4NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5ND
+AwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIw
+NzYsMTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLT
+EzMDI1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4
+MDQ3NTddfQ==
 -->
