@@ -1,5 +1,5 @@
 # 목차
-[TOC]
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>{{files.0.name}}</title> <link rel="stylesheet" href="https://stackedit.io/style.css" /> </head> {{#if pdf}} <body class="stackedit stackedit--pdf"> {{else}} <body class="stackedit"> {{/if}} <div class="stackedit__html">{{#transformToc files.0.content.toc}}{{{files.0.content.html}}}{{/transformToc}}</div> </body> </html>
 # 개요
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
@@ -57,11 +57,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMT
-M3MjY4NDUsLTE5NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAw
-MjM1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMT
-Y0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgy
-OTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcyMDYsLT
-gzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMzYwMjUx
-NzEwXX0=
+eyJoaXN0b3J5IjpbMzk4MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1Mj
+c5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOTEsLTk1MDExNjA1
+NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3MzEyMTk3LC03Nj
+M1MDg4OTYsMTY0Mjg3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgx
+MTI0LC0xNDgyOTA2NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5Nj
+Y2NTcyMDYsLTgzNDk0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5
+MjVdfQ==
 -->
