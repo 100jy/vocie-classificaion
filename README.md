@@ -67,7 +67,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 [전체 코드](..)
 > 학습결과 : epoch : 999, Train MSE : 0.09582
 
-*MSE : 0.09582*의 학습 결과는 인코딩 과정에서 정보 손실이 매우 적다는 것을 보여준다. 
+*MSE : 0.09582*의 학습 결과는 인코딩 과정에서 **정보 손실이 매우 적다는 것**을 보여준다. 
 
 ### K-MEANs
 2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다.
@@ -75,7 +75,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIzOTUxOTEsOTQwMDcxODk2LDQzMj
+eyJoaXN0b3J5IjpbLTExNzE2NDU4MTUsOTQwMDcxODk2LDQzMj
 czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
 NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
 0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
