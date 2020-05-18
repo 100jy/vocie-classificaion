@@ -222,7 +222,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 >김동률
 >
 >[soundcloud](https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb)
-[![Video Label](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkr.123rf.com%2Fphoto_42613299_%25EC%2595%25B1-%25EB%25B0%258F-%25EC%259B%25B9-%25EC%2582%25AC%25EC%259D%25B4%25ED%258A%25B8%25EC%259D%2598-%25EB%258F%2599%25EC%2598%2581%25EC%2583%2581-%25EC%259E%25AC%25EC%2583%259D-%25EC%2595%2584%25EC%259D%25B4%25EC%25BD%2598-%25EC%259E%25AC%25EC%2583%259D.html&psig=AOvVaw2HRfq-2FyvVGEnaTt_Tlwz&ust=1589911174176000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMi2jOn-vekCFQAAAAAdAAAAABAD)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
+[![Video Label](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2664823B589DC8F92B)](https://youtu.be/uLR1RNqJ1Mw?t=0s)
 
 
 >로이킴
@@ -241,7 +241,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzI0MTcxNSwxOTg5MDk4NDU0LDEyMj
+eyJoaXN0b3J5IjpbLTUwNjU4MjgxNywxOTg5MDk4NDU0LDEyMj
 M3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0MjcsLTE5ODk5
 MjI2NiwyMDc2MDk2MzYwLDczMTg4MjMxLDEwMDczNTQxODQsMT
 IxNjk5MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxNDU4ODIz
