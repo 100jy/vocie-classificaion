@@ -66,6 +66,8 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ```
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png)
 
+<img src="enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/output_13_2.png" width="700" height="370"> 
+
 # Labeling by unsupervised learning
  곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨
  **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.  
@@ -242,11 +244,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDUwNTI4MCwxNzY3Njg5MzcsLTE0NT
-g2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2
-NDI1LC0xMzAwMjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5NjM2MC
-w3MzE4ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUw
-MzgxLDE4NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MC
-w5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1
-NzIwNzZdfQ==
+eyJoaXN0b3J5IjpbNDI1NDQzMjU2LDE3Njc2ODkzNywtMTQ1OD
+Y5Mzk2MSwxOTg5MDk4NDU0LDEyMjM3NDI4MzMsLTE0MjU1MzY0
+MjUsLTEzMDAyNzc0MjcsLTE5ODk5MjI2NiwyMDc2MDk2MzYwLD
+czMTg4MjMxLDEwMDczNTQxODQsMTIxNjk5MzYzNSw1MTU2NTAz
+ODEsMTg1NDk5NzI1NCwxNDU4ODIzOTE2LC0xMTg1NDE0MzUwLD
+k0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3
+MjA3Nl19
 -->
