@@ -106,13 +106,13 @@ hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_sp
 604/604 [==============================] - 0s 285us/step - loss: 0.4900 - acc: 0.8328 - val_loss: 0.7955 - val_acc: 0.6912
 testset 정확도 : 0.75
 
-학습과정은 아래와 같다.
+>학습과정은 아래와 같다.
+>
+>![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/MLP_hist.png)
 
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/MLP_hist.png)
-
-테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
-
-![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
+>테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
+>
+>![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
 
 group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데이터 수가 비교적 부족하며,  group4와 특성도 유사하기 때문으로 보인다.
 > 그룹4와 그룹5 
@@ -121,11 +121,11 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyODc5MDk0LDk0MDA3MTg5Niw0MzI3Mz
-I1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4
-LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMT
-YwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYx
-MjMsLTE0NDUyNzkyOTEsMTAxMzcyNjg0NSwtMTk3NjQxNTE5MS
-wtOTUwMTE2MDU3LDIwOTAyMDAyMzUsLTM5OTcyMTk4MywzNjcz
-MTIxOTddfQ==
+eyJoaXN0b3J5IjpbLTExODU0MTQzNTAsOTQwMDcxODk2LDQzMj
+czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
+NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
+0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
+NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
+kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
+NzMxMjE5N119
 -->
