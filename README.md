@@ -106,10 +106,12 @@ testset 정확도 : 0.75
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
 
 group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데이터 수가 비교적 부족하며,  group4와 특성도 유사하기 때문으로 보인다.
-
+> 그룹4와 그룹5
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B94.png)
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Mjc2NzU1MCw5NDAwNzE4OTYsNDMyNz
+eyJoaXN0b3J5IjpbLTM1OTk0ODM5OCw5NDAwNzE4OTYsNDMyNz
 MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
 OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
 E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
