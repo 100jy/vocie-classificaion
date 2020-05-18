@@ -210,13 +210,13 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 
 <iframe width="640" height="360" src="https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb"  
- frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ frameborder="0"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxODI5MDQxLDEwMDczNTQxODQsMTIxNj
-k5MzYzNSw1MTU2NTAzODEsMTg1NDk5NzI1NCwxNDU4ODIzOTE2
-LC0xMTg1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3ND
-IyMDYxMiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIz
-NjAsLTU3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0Ny
-wtMTI3MjQzNjE5OSwzOTgwNDc1Nyw2MTgyNDYxMjMsLTE0NDUy
-NzkyOTFdfQ==
+eyJoaXN0b3J5IjpbLTI2MzI2OTcwOCwxMDA3MzU0MTg0LDEyMT
+Y5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5OTcyNTQsMTQ1ODgyMzkx
+NiwtMTE4NTQxNDM1MCw5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNz
+QyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3OCwyMDg5OTUy
+MzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLTE2MDU4NzE3ND
+csLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1
+Mjc5MjkxXX0=
 -->
