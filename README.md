@@ -85,7 +85,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 ## MLP model
 
-22명의 가수총 920곡에 대해 
+22명의 가수의 총 920곡에 대해  20차원  벡터를 추출하여 분류해보았다. 
 
 ```python
 #structure
@@ -126,7 +126,7 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 ## CNN model
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4Nzc2NTE0LC0xMTg1NDE0MzUwLDk0MD
+eyJoaXN0b3J5IjpbMzg4Mzg4MDQ1LC0xMTg1NDE0MzUwLDk0MD
 A3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3
 NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMT
 MwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgw
