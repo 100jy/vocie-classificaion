@@ -8,7 +8,7 @@
 ## Vocal extraction and VAD
 from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-U-Net)
 
-사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 vocal만을 추출하였다.이후 이 음성에서 보컬이 등
+사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 Vocal만을 추출하였다.이후 이 음성에서 보컬이 등장하는 구간을 찾아주어 나머지 구간을 제거해 준다. 이를 VAD(Voice Active Detection)라고 한다. 
 
 ## Sampling
 sampling from continuous signal to create discrete array data. 
@@ -69,9 +69,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMDg1NDMwLC03NjM1MDg4OTYsMTY0Mj
-g3NTM4OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgyOTA2
-NDQsOTY0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcyMDYsLTgzND
-k0MjEyOSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMzYwMjUxNzEw
-XX0=
+eyJoaXN0b3J5IjpbMTEwOTIyMTU3OCwtNzYzNTA4ODk2LDE2ND
+I4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMTQ4Mjkw
+NjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2LC04Mz
+Q5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MDI1MTcx
+MF19
 -->
