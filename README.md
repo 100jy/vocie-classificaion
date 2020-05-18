@@ -62,7 +62,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 다음과 같이 인코더와 디코더 부분이 **대칭**을 이루는 AE를  *Stacked Auto Encoder*라고 한다. 이때 인코더와 디코더는 가중치를 서로 공유한다.
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/Structure-of-Stacked-Autoencoders.png)
 [전체 코드](..)
-
+> 학습결과 : epoch : 999, Train MSE : 0.09582
 
 
 ### K-MEANs
@@ -76,11 +76,11 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDc2NjgsLTEyNjE1NzIwNzYsMTU5Mj
-g3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2
-MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNj
-E4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0
-MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5OD
-MsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwxOTcz
-NTIzMjY0XX0=
+eyJoaXN0b3J5IjpbLTIwMTk2NTcxNDcsLTEyNjE1NzIwNzYsMT
+U5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1
+NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NT
+csNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5
+NzY0MTUxOTEsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3Mj
+E5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4OSwx
+OTczNTIzMjY0XX0=
 -->
