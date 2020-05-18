@@ -10,6 +10,9 @@ Waveunet from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-
 VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/py-webrtcvad)
 
 사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 Vocal만을 추출하였다.이후 이 음성에서 보컬이 등장하는 구간을 찾아주어 나머지 구간을 제거해 준다. 이를 VAD(Voice Active Detection)라고 한다. 
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/sam_fig.png)
+
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/sam_fig_2.png)
 
 ## Feature extraction
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
@@ -36,9 +39,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjkyNDMyOCwzNjczMTIxOTcsLTc2Mz
-UwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3NDYwODEx
-MjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2Nj
-Y1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzky
-NSwzNjAyNTE3MTBdfQ==
+eyJoaXN0b3J5IjpbMzk0MDQxMzQ5LDM2NzMxMjE5NywtNzYzNT
+A4ODk2LDE2NDI4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEy
+NCwtMTQ4MjkwNjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2Nj
+U3MjA2LC04MzQ5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1
+LDM2MDI1MTcxMF19
 -->
