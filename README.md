@@ -209,10 +209,9 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 
 
-<iframe width="640" height="360" src="https://soundcloud.com/yb-100/test_1/s-SHUlxKbz9nb"  
- frameborder="0"></iframe>
+<iframe width="640" height="360" src="https://soundcloud.com/bi-s-n-3/sets/chilloutwithme"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzI2OTcwOCwxMDA3MzU0MTg0LDEyMT
+eyJoaXN0b3J5IjpbMTcyODYwNjUwMiwxMDA3MzU0MTg0LDEyMT
 Y5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5OTcyNTQsMTQ1ODgyMzkx
 NiwtMTE4NTQxNDM1MCw5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNz
 QyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3OCwyMDg5OTUy
