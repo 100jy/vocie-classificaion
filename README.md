@@ -57,6 +57,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
  **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.     
 ## Dimension reduction by Auto Encoder
 오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 군집화 해 볼 것이다.
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/maniford.png)
 ### Stacked Auto Encoder
 
 ### K-MEANs
@@ -68,7 +69,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMyNDgzMjUsLTEyNjE1NzIwNzYsMT
+eyJoaXN0b3J5IjpbLTEzNjIyOTgwODksLTEyNjE1NzIwNzYsMT
 U5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1
 NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NT
 csNjE4MjQ2MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5
