@@ -19,7 +19,7 @@ VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/
 MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **고음역대의 변화에 덜 민감하게** 필터링한다.
 
 
- ⑴ 우선 입력 신호를 일정한 간격의 frame으로 나눈 뒤, 
+
  **⑵ 프레임 마다 Periodogram Spectral Estimate을 만든다**. 
 >Periodogram 은 도메인을 frequency로 변환하여 각 frequency마다의 음압을 계산하여  각 frame마다의 배음구조를 확인 할 수 있다. 이 과정은 FFT(Fast Fourier Transform)을 이용하여 수행된다.
 
@@ -51,9 +51,10 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOT
-k3MjE5ODMsMzY3MzEyMTk3LC03NjM1MDg4OTYsMTY0Mjg3NTM4
-OSwxOTczNTIzMjY0LC0xNzQ2MDgxMTI0LC0xNDgyOTA2NDQsOT
-Y0NjA4OTUyLDk2NDYwODk1Miw5NjY2NTcyMDYsLTgzNDk0MjEy
-OSwtMTk0MjIyMjY3OSwtMzEwMjc5MjUsMzYwMjUxNzEwXX0=
+eyJoaXN0b3J5IjpbMTY1MTQwOTEyNCwtOTUwMTE2MDU3LDIwOT
+AyMDAyMzUsLTM5OTcyMTk4MywzNjczMTIxOTcsLTc2MzUwODg5
+NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3NDYwODExMjQsLT
+E0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2NjY1NzIw
+NiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzkyNSwzNj
+AyNTE3MTBdfQ==
 -->
