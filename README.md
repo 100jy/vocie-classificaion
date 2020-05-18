@@ -97,9 +97,14 @@ hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_sp
 > Epoch 50/50
 604/604 [==============================] - 0s 285us/step - loss: 0.4900 - acc: 0.8328 - val_loss: 0.7955 - val_acc: 0.6912
 
-학
+학습과정은 아래와 같다.
+
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/MLP_hist.png)
+
+테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
+![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA1NzU5NjEsOTQwMDcxODk2LDQzMj
+eyJoaXN0b3J5IjpbLTEwODI0OTIyNjgsOTQwMDcxODk2LDQzMj
 czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
 NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
 0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
