@@ -96,6 +96,7 @@ hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_sp
 > 결과
 > Epoch 50/50
 604/604 [==============================] - 0s 285us/step - loss: 0.4900 - acc: 0.8328 - val_loss: 0.7955 - val_acc: 0.6912
+testset 정확도 : 0.75
 
 학습과정은 아래와 같다.
 
@@ -103,12 +104,14 @@ hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_sp
 
 테스트 셋 결과에 대한 confusion matrix는 아래와 같다.
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/confusion_mat_MLP.png)
+
+group5에 대해서 분류 결과가 매우 좋지 않다.  이는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODI0OTIyNjgsOTQwMDcxODk2LDQzMj
-czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
-NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
-0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
-NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
-kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
-NzMxMjE5N119
+eyJoaXN0b3J5IjpbLTM0NTM5OTAzMyw5NDAwNzE4OTYsNDMyNz
+MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
+OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
+E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
+MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOT
+EsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3
+MzEyMTk3XX0=
 -->
