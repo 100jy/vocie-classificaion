@@ -3,14 +3,8 @@
 
 # Data pre-processing
 
-```mermaid
-graph LR
-A[Full song] -- WaveUNet --> B(Vocal only)
-B -- Extractiong Feature by MFCCs  --> C[Feature of song]
-머메이드 지원안한다슈발럼들...
-```
-
- 'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거한다. 이후 MFCCs 모델을 이용하여 특징을 추출하고 이를 이용하여 가수들을 분류한다. 이후 해당 데이터를 이용하여 학습된 분류기로 입력값에 대해 분류한다. 
+먼저 가수들의 노래에서  'WaveUNet' 신경망을 이용하여 곡에서 반주를 제거하여 보컬만을 남긴다. 이후 MFCCs 모델을 이용하여 특징을 추출하고 이를 이용하여 가수들을 분류한다. 이후 해당 데이터를 이용하여 학습된 분류기로 입력값에 대해 분류한다. 
+ 
 ## Vocal extraction by Waveunet
 Vocal extracion from signal datas by using
 Waveunet, cnn network designed for separating vocal from song
@@ -84,8 +78,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5Nz
-M1MjMyNjQsLTE3NDYwODExMjQsLTE0ODI5MDY0NCw5NjQ2MDg5
-NTIsOTY0NjA4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOT
-QyMjIyNjc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
+eyJoaXN0b3J5IjpbLTkyODQ4NTY4MSwtNzYzNTA4ODk2LDE2ND
+I4NzUzODksMTk3MzUyMzI2NCwtMTc0NjA4MTEyNCwtMTQ4Mjkw
+NjQ0LDk2NDYwODk1Miw5NjQ2MDg5NTIsOTY2NjU3MjA2LC04Mz
+Q5NDIxMjksLTE5NDIyMjI2NzksLTMxMDI3OTI1LDM2MDI1MTcx
+MF19
 -->
