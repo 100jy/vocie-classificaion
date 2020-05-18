@@ -74,15 +74,17 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
 # Classification by Deep-Learning model
-rhr
+전처리를 거친 곡의 MFCC를 feature로 하여 label을 Classification 하는 신경망 모델들을 학습 시켜 볼 것이다.
 ## MLP model
 
+    enter code here
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE1MzA4OTYsOTQwMDcxODk2LDQzMj
-czMjUwMiwtMjc0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3
-NzgsMjA4OTk1MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC
-0xNjA1ODcxNzQ3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0
-NjEyMywtMTQ0NTI3OTI5MSwxMDEzNzI2ODQ1LC0xOTc2NDE1MT
-kxLC05NTAxMTYwNTcsMjA5MDIwMDIzNSwtMzk5NzIxOTgzLDM2
-NzMxMjE5N119
+eyJoaXN0b3J5IjpbLTQ3Njk2NjQwMiw5NDAwNzE4OTYsNDMyNz
+MyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3
+OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLT
+E2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2
+MTIzLC0xNDQ1Mjc5MjkxLDEwMTM3MjY4NDUsLTE5NzY0MTUxOT
+EsLTk1MDExNjA1NywyMDkwMjAwMjM1LC0zOTk3MjE5ODMsMzY3
+MzEyMTk3XX0=
 -->
