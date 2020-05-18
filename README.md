@@ -18,7 +18,7 @@ VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/
 ### Mel-Frequency Cepstral Coefficients(MFCCs)
 MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **고음역대의 변화에 덜 민감하게** 필터링한다.
 
-우선 입력 신호를 일정한 간격의 frame으로 나눈 뒤  **프레임 마다 Spectogram을 만든다**.  Spectogram은 도메인을 frequency로 변환하여 각 **frequency마다의 음압을 계산**하여  각 frame마다의 **배음구조를 확인** 할 수 있다. 이떄 이러한 계산을 위해서 **FFT(Fast Fourier Transform)**을 이용한다.
+우선 입력 신호를 일정한 간격의 frame으로 나눈 뒤  **프레임 마다 Spectogram을 만든다**.  Spectogram은 도메인을 frequency로 변환하여 각 **frequency마다의 음압을 계산**하여  각 frame마다의 **배음구조를 확인** 할 수 있다. 이떄 이러한 계산을 위해서 **DFT(Discrete Fourier Transform)**을 이용한다. 이렇게 나온 결과를 power spectrum이라 하고 이 power spectrum
 
 
 ```python
@@ -41,9 +41,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/fig4.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTcyMTk4MywzNjczMTIxOTcsLTc2Mz
-UwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMyNjQsLTE3NDYwODEx
-MjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOTY0NjA4OTUyLDk2Nj
-Y1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIyNjc5LC0zMTAyNzky
-NSwzNjAyNTE3MTBdfQ==
+eyJoaXN0b3J5IjpbLTEyMTQwMzg1OTUsLTM5OTcyMTk4MywzNj
+czMTIxOTcsLTc2MzUwODg5NiwxNjQyODc1Mzg5LDE5NzM1MjMy
+NjQsLTE3NDYwODExMjQsLTE0ODI5MDY0NCw5NjQ2MDg5NTIsOT
+Y0NjA4OTUyLDk2NjY1NzIwNiwtODM0OTQyMTI5LC0xOTQyMjIy
+Njc5LC0zMTAyNzkyNSwzNjAyNTE3MTBdfQ==
 -->
