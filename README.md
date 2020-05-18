@@ -209,13 +209,13 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 
 
-<iframe width="640" height="360" src="https://soundcloud.com/bi-s-n-3/sets/chilloutwithme"></iframe>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/823104952%3Fsecret_token%3Ds-SHUlxKbz9nb&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODYwNjUwMiwxMDA3MzU0MTg0LDEyMT
-Y5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5OTcyNTQsMTQ1ODgyMzkx
-NiwtMTE4NTQxNDM1MCw5NDAwNzE4OTYsNDMyNzMyNTAyLC0yNz
-QyMjA2MTIsLTEyNjE1NzIwNzYsMTU5Mjg3OTc3OCwyMDg5OTUy
-MzYwLC01NzA2NzE1MTcsLTEzMDI1NDQ2MDUsLTE2MDU4NzE3ND
-csLTEyNzI0MzYxOTksMzk4MDQ3NTcsNjE4MjQ2MTIzLC0xNDQ1
-Mjc5MjkxXX0=
+eyJoaXN0b3J5IjpbLTE0MDYyNjM1MjYsMTAwNzM1NDE4NCwxMj
+E2OTkzNjM1LDUxNTY1MDM4MSwxODU0OTk3MjU0LDE0NTg4MjM5
+MTYsLTExODU0MTQzNTAsOTQwMDcxODk2LDQzMjczMjUwMiwtMj
+c0MjIwNjEyLC0xMjYxNTcyMDc2LDE1OTI4Nzk3NzgsMjA4OTk1
+MjM2MCwtNTcwNjcxNTE3LC0xMzAyNTQ0NjA1LC0xNjA1ODcxNz
+Q3LC0xMjcyNDM2MTk5LDM5ODA0NzU3LDYxODI0NjEyMywtMTQ0
+NTI3OTI5MV19
 -->
