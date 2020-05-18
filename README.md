@@ -178,10 +178,29 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 >
 >![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/%EA%B7%B8%EB%A3%B95.png)
 
+```python
+from numpy import dot
+from numpy.linalg import norm
+def cosine_simularity(a,b):
+    return dot(a,b)/(norm(a)*norm(b))
 
+def get_singer(db, cluster, vector):
+    arr = []
+    for i in range(db.shape[0]):
+        if db.iloc[i,:]['cluster'] == cluster:
+            tmp = db.iloc[i,1:21].reshape(20,)
+            tmp2 = vector.reshape(20,)
+            sim = cosine_simularity(tmp,tmp2)
+            arr.append([sim,db.iloc[i,:]['0.1']])
 
+    arr.sort(key=lambda x : x[0])
+    return print('가장 유사한 가수 : '+arr[-1][1]+'\n'+'유사도 : '+str(round(arr[-1][0],4)))
+```
+
+>가장 유사한 가수 : 로이킴
+유사도 : 0.1437
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzE1MDI0NiwxNDU4ODIzOTE2LC0xMT
+eyJoaXN0b3J5IjpbLTg5NDgyMDMyMiwxNDU4ODIzOTE2LC0xMT
 g1NDE0MzUwLDk0MDA3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYx
 MiwtMTI2MTU3MjA3NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLT
 U3MDY3MTUxNywtMTMwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3
