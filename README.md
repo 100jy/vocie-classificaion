@@ -227,13 +227,13 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 # 결론
 
-mfcc를 이용한 가수들의 분류가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 납득을 할만한 결과를 보여주었다. 허나 데이터가 부족하여  
+**MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수  허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjY2MDIwOCwyMDc2MDk2MzYwLDczMT
-g4MjMxLDEwMDczNTQxODQsMTIxNjk5MzYzNSw1MTU2NTAzODEs
-MTg1NDk5NzI1NCwxNDU4ODIzOTE2LC0xMTg1NDE0MzUwLDk0MD
-A3MTg5Niw0MzI3MzI1MDIsLTI3NDIyMDYxMiwtMTI2MTU3MjA3
-NiwxNTkyODc5Nzc4LDIwODk5NTIzNjAsLTU3MDY3MTUxNywtMT
-MwMjU0NDYwNSwtMTYwNTg3MTc0NywtMTI3MjQzNjE5OSwzOTgw
-NDc1N119
+eyJoaXN0b3J5IjpbNDY2ODIwOTksMjA3NjA5NjM2MCw3MzE4OD
+IzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgxLDE4
+NTQ5OTcyNTQsMTQ1ODgyMzkxNiwtMTE4NTQxNDM1MCw5NDAwNz
+E4OTYsNDMyNzMyNTAyLC0yNzQyMjA2MTIsLTEyNjE1NzIwNzYs
+MTU5Mjg3OTc3OCwyMDg5OTUyMzYwLC01NzA2NzE1MTcsLTEzMD
+I1NDQ2MDUsLTE2MDU4NzE3NDcsLTEyNzI0MzYxOTksMzk4MDQ3
+NTddfQ==
 -->
