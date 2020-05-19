@@ -74,7 +74,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
  곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨 **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.  
     
 ## Dimension reduction by Auto Encoder
-오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 군집화 해 볼 것이다.
+오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 **군집화** 해 볼 것이다.
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/maniford.png)
 
@@ -256,11 +256,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzEwMTI1NTcsLTEwMTQyMzg4MzcsMj
-YzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5NCwtODE5MzQy
-OTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLT
-E0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1
-NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5Nj
-M2MCw3MzE4ODIzMSwxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1
-NjUwMzgxXX0=
+eyJoaXN0b3J5IjpbMTI5OTI1OTM3OSwtMTUzMTAxMjU1NywtMT
+AxNDIzODgzNywyNjM0ODQ5NDYsMTIyNTAzOTczNiwxMTYwNDA5
+Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5MTUsNDI1NDQzMjU2LD
+E3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4NDU0LDEyMjM3
+NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0MjcsLTE5ODk5Mj
+I2NiwyMDc2MDk2MzYwLDczMTg4MjMxLDEwMDczNTQxODQsMTIx
+Njk5MzYzNV19
 -->
