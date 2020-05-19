@@ -90,7 +90,7 @@ height="450">
 *MSE : 0.09582*의 학습 결과는 인코딩 과정에서 **정보 손실이 매우 적다는 것**을 보여준다.  사전에 테스트 해본 **PCA의 결과였던 *0.3*정도**의 MSE 보다 훨씬 작은 값을 가지는 것을 볼 수 있다. 
 
 ### K-MEANs
-2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다. 이 군집 결과를 이용하여 labeling을 해준 뒤, **신경망 모델을 이용하여 classification을** 해볼 것이다.
+2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다. 이 **군집화 결과를 이용하여 labeling을 해준 뒤**, 신경망 모델을 이용하여 classification을 해볼 것이다.
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/cluster.png)
 
@@ -256,11 +256,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjAxNzMsLTE1MzEwMTI1NTcsLTEwMT
-QyMzg4MzcsMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5
-NCwtODE5MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNz
-Y3Njg5MzcsLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQy
-ODMzLC0xNDI1NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5OTIyNj
-YsMjA3NjA5NjM2MCw3MzE4ODIzMSwxMDA3MzU0MTg0LDEyMTY5
-OTM2MzVdfQ==
+eyJoaXN0b3J5IjpbMTQyNTE3NjY2NSwtNzY2MDE3MywtMTUzMT
+AxMjU1NywtMTAxNDIzODgzNywyNjM0ODQ5NDYsMTIyNTAzOTcz
+NiwxMTYwNDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5MTUsND
+I1NDQzMjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4
+NDU0LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0Mj
+csLTE5ODk5MjI2NiwyMDc2MDk2MzYwLDczMTg4MjMxLDEwMDcz
+NTQxODRdfQ==
 -->
