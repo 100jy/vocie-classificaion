@@ -56,7 +56,7 @@ MFCC는인간의 청각 시스템을 모방한 변환 함수를 이용하여 **�
 
 ⑹  **DCT(Discrete Cosine Transform)를 적용**한 뒤, 나온 coefficient의  2~13 만 남기고 나머지는 버린다.
 > DCT는 DFT과 유사한 역할을 하며 처리 이후 에너지가 신호 성분이 낮은 주파수에 몰리게 되는 *에너지 집중 현상*이 나타나는 특징이 있다.  
-[more info]([https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html](https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html))
+[more info](https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node231.html)
 
 form : [MFCC tutorial](http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/#comment-3266294515)
 
@@ -256,7 +256,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTc2NjMxNywyNjM0ODQ5NDYsMTIyNT
+eyJoaXN0b3J5IjpbLTgyNjM0MDA0OSwyNjM0ODQ5NDYsMTIyNT
 AzOTczNiwxMTYwNDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5
 MTUsNDI1NDQzMjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOT
 g5MDk4NDU0LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAy
