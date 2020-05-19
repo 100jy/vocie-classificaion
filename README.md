@@ -226,10 +226,12 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 ```
 
 >CNN model을 이용한 가장 유사한 가수 : 로이킴
-유사도 : 0.1437
+>
+>유사도 : 0.1437
 
->MLP model을 이용한 가장 유사한 가수
-유사도 : -0.1139
+>MLP model을 이용한 가장 유사한 가수 : 김동률
+>
+>유사도 : -0.1139
 
 노래를 듣고 비교해보면 비교적 유사한 목소리를 찾은 것을 알 수 있다.
 
@@ -254,11 +256,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MD
-QwOTY5NCwtODE5MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1
-NiwxNzY3Njg5MzcsLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMj
-IzNzQyODMzLC0xNDI1NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5
-OTIyNjYsMjA3NjA5NjM2MCw3MzE4ODIzMSwxMDA3MzU0MTg0LD
-EyMTY5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5OTcyNTQsMTQ1ODgy
-MzkxNl19
+eyJoaXN0b3J5IjpbLTE2MjU3MTQwMzEsMjYzNDg0OTQ2LDEyMj
+UwMzk3MzYsMTE2MDQwOTY5NCwtODE5MzQyOTc4LC0xNDQ2ODY2
+OTE1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLTE0NTg2OTM5NjEsMT
+k4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2NDI1LC0xMzAw
+Mjc3NDI3LC0xOTg5OTIyNjYsMjA3NjA5NjM2MCw3MzE4ODIzMS
+wxMDA3MzU0MTg0LDEyMTY5OTM2MzUsNTE1NjUwMzgxLDE4NTQ5
+OTcyNTRdfQ==
 -->
