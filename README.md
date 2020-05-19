@@ -146,7 +146,7 @@ group5에 대해서 분류 결과가 매우 좋지 않다.  이는 group5의 데
 
 ## CNN model
 
-이전의 모델과는 다르게 **22명의 가수**의 **총 1920곡**에 대해  **96000차원  벡터**를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 **200x160의 3개의 channel을 가지는 형태**로 reshape 해주었다. 이후 VGG16 model을 이용하여 전이학습을 하여 모델을 학습 시켰다.
+이전의 모델과는 다르게 **22명의 가수**의 **총 1920곡**에 대해  **96000차원  벡터**를 추출하여 분류해보았다.  학습 이전에 (n, 200, 160, 3)의 **200x160의 3개의 channel을 가지는 형태**로 reshape 해주었다. 이후 **VGG16 model을 이용하여 전이학습을** 하여 모델을 학습 시켰다.
 ```python
 from tensorflow.python.keras.applications import VGG16
 from tensorflow.python.keras.models import *
@@ -256,7 +256,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2MTkwMTY5LC03NjYwMTczLC0xNTMxMD
+eyJoaXN0b3J5IjpbODM2MjM5NTEzLC03NjYwMTczLC0xNTMxMD
 EyNTU3LC0xMDE0MjM4ODM3LDI2MzQ4NDk0NiwxMjI1MDM5NzM2
 LDExNjA0MDk2OTQsLTgxOTM0Mjk3OCwtMTQ0Njg2NjkxNSw0Mj
 U0NDMyNTYsMTc2NzY4OTM3LC0xNDU4NjkzOTYxLDE5ODkwOTg0
