@@ -32,7 +32,7 @@ Waveunet from : [https://github.com/f90/Wave-U-Net](https://github.com/f90/Wave-
 
 VAD from : [https://github.com/wiseman/py-webrtcvad](https://github.com/wiseman/py-webrtcvad)
 
-사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 Vocal만을 추출하였다.이후 이 음성에서 보컬이 등장하는 구간을 찾아주어 나머지 구간을 제거해 준다. 이를 VAD(Voice Active Detection)라고 한다. 
+사전 학습된 Waveunet 신경망을 이용하여 음원으로부터 **Vocal만을 추출**하였다.이후 이 음성에서 보컬이 등장하는 구간을 찾아주어 **보컬이 등장하지 않는** 나머지 **구간을 제거**해 준다. 이를 **VAD(Voice Active Detection)라고** 한다. 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/sam_fig.png)
 
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/sam_fig_2.png)
@@ -256,7 +256,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM3NTg2OTEsLTEwMTQyMzg4MzcsMj
+eyJoaXN0b3J5IjpbLTE1MzEwMTI1NTcsLTEwMTQyMzg4MzcsMj
 YzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5NCwtODE5MzQy
 OTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLT
 E0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1
