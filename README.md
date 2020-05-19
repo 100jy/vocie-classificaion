@@ -70,8 +70,7 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 
 
 # Labeling by unsupervised learning
- 곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨
- **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.  
+ 곡에서 얻어진  MFCC는 프레임 당 길이 20의 vector로 표현된다. 이를 전체 프레임에 대하여 **평균**을 매겨 **곡 하나 당 길이 20의 vector로** 만들어준다. 그 후 **Auto Encoder**를 이용하여 이를 **2차원으로 축소** 시킨 뒤, K-means 알고리즘을 이용하여 **군집화** 시켜 결과를 **데이터의 라벨로 이용**할 것이다.  
     
 ## Dimension reduction by Auto Encoder
 오토인코더는 **manifold learning**을 위해 주로 이용되며, **Nonlinear dimensionality reduction**을 수행 할 수 있다.  먼저 데이터를 2차원으로 줄인 뒤, k-means 알고리즘을 이용하여  data point 간의 euclidean-dist를 기반으로 군집화 해 볼 것이다.
@@ -123,7 +122,7 @@ hist_mlp = model.fit(x_train,y_train,batch_size = 30, epochs = 50, validation_sp
 > 결과
 > Epoch 50/50
 604/604 [==============================] - 0s 285us/step - loss: 0.4900 - acc: 0.8328 - val_loss: 0.7955 - val_acc: 0.6912
-testset 정확도 : 0.75
+**testset 정확도 : 0.75**
 
 >학습과정은 아래와 같다.
 >
@@ -175,7 +174,7 @@ hist = pre_model.fit(x_train,y_train,batch_size=batch_size,
 > 결과
 > Epoch 500/500
 1209/1209 [==============================] - 31s 25ms/step - loss: 0.0838 - acc: 0.9801 - val_loss: 0.9971 - val_acc: 0.7259
-> test_정확도 : 0.6927083333333334
+> **test_정확도 : 0.6927083333333334**
 
 > 학습과정
 > 
@@ -256,7 +255,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1NDQ5NDAxLDI2MzQ4NDk0NiwxMjI1MD
+eyJoaXN0b3J5IjpbMzU2MjQwOTcxLDI2MzQ4NDk0NiwxMjI1MD
 M5NzM2LDExNjA0MDk2OTQsLTgxOTM0Mjk3OCwtMTQ0Njg2Njkx
 NSw0MjU0NDMyNTYsMTc2NzY4OTM3LC0xNDU4NjkzOTYxLDE5OD
 kwOTg0NTQsMTIyMzc0MjgzMywtMTQyNTUzNjQyNSwtMTMwMDI3
