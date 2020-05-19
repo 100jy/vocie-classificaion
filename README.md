@@ -85,9 +85,9 @@ librosa.display.specshow(mfcc,sr=sr_x, x_axis='time')
 height="450"> 
 
 [전체 코드](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/%EB%B6%84%EC%84%9D%EA%B3%BC%EC%A0%95/%EB%A7%8E%EC%9D%80_%EA%B0%80%EC%88%98%EC%97%90%EC%84%9C_%EA%B5%B0%EC%A7%91%ED%99%94.ipynb)
-> 학습결과 : epoch : 999, Train MSE : 0.09582
+> 학습결과 : epoch : 999, **Train MSE : 0.09582**
 
-*MSE : 0.09582*의 학습 결과는 인코딩 과정에서 **정보 손실이 매우 적다는 것**을 보여준다.  사전에 테스트 해본 PCA의 결과였던 *0.3*정도의 MSE 보다 훨씬 작은 값을 가지는 것을 볼 수 있다. 
+*MSE : 0.09582*의 학습 결과는 인코딩 과정에서 **정보 손실이 매우 적다는 것**을 보여준다.  사전에 테스트 해본 **PCA의 결과였던 *0.3*정도**의 MSE 보다 훨씬 작은 값을 가지는 것을 볼 수 있다. 
 
 ### K-MEANs
 2차원 축소 후 K-MEANs 알고리즘을 이용한 군집화 결과는 아래와 같다. 이 군집 결과를 이용하여 labeling을 해준 뒤, **신경망 모델을 이용하여 classification을** 해볼 것이다.
@@ -256,11 +256,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU2NzMwMywyNjM0ODQ5NDYsMTIyNT
-AzOTczNiwxMTYwNDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5
-MTUsNDI1NDQzMjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOT
-g5MDk4NDU0LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAy
-Nzc0MjcsLTE5ODk5MjI2NiwyMDc2MDk2MzYwLDczMTg4MjMxLD
-EwMDczNTQxODQsMTIxNjk5MzYzNSw1MTU2NTAzODEsMTg1NDk5
-NzI1NF19
+eyJoaXN0b3J5IjpbNjQ1NDQ5NDAxLDI2MzQ4NDk0NiwxMjI1MD
+M5NzM2LDExNjA0MDk2OTQsLTgxOTM0Mjk3OCwtMTQ0Njg2Njkx
+NSw0MjU0NDMyNTYsMTc2NzY4OTM3LC0xNDU4NjkzOTYxLDE5OD
+kwOTg0NTQsMTIyMzc0MjgzMywtMTQyNTUzNjQyNSwtMTMwMDI3
+NzQyNywtMTk4OTkyMjY2LDIwNzYwOTYzNjAsNzMxODgyMzEsMT
+AwNzM1NDE4NCwxMjE2OTkzNjM1LDUxNTY1MDM4MSwxODU0OTk3
+MjU0XX0=
 -->
