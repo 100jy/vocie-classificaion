@@ -21,6 +21,10 @@
 ![enter image description here](https://github.com/100jy/vocie-classificaion/blob/master/%EA%B7%B8%EB%A6%BC1.png)
 
 
+# Insight
+
+각 가수 마다 같은 피치의 음을 낼 때, 다른 배음구조를 가지고 낸다, 이는 성대구조 차이, 발성 방식의 차이 때문이다. 
+
 # Data pre-processing
 
 [전체 코드](https://github.com/100jy/vocie-classificaion/blob/master/voicepro/pre_processing.py)
@@ -256,11 +260,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg1MjA1NjMsMTA5Mjc3MjQ0MSw4Mz
-YyMzk1MTMsLTc2NjAxNzMsLTE1MzEwMTI1NTcsLTEwMTQyMzg4
-MzcsMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5NCwtOD
-E5MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5
-MzcsLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC
-0xNDI1NTM2NDI1LC0xMzAwMjc3NDI3LC0xOTg5OTIyNjYsMjA3
-NjA5NjM2MF19
+eyJoaXN0b3J5IjpbMTgyMDYwNDA4NCwtMTUwODUyMDU2MywxMD
+kyNzcyNDQxLDgzNjIzOTUxMywtNzY2MDE3MywtMTUzMTAxMjU1
+NywtMTAxNDIzODgzNywyNjM0ODQ5NDYsMTIyNTAzOTczNiwxMT
+YwNDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5MTUsNDI1NDQz
+MjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4NDU0LD
+EyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEzMDAyNzc0MjcsLTE5
+ODk5MjI2Nl19
 -->
