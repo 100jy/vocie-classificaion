@@ -43,6 +43,7 @@ height="450">
 height="500">
 >
 > 각각 '레'음과 '미'음를 낸 경우 인데, 황치열의 경우 아랫 배음이 두껍고, 권정렬의 경우 *제 2포먼트*에서 상대적으로 음압이 매우 높은 것을 볼 수 있다.
+>
 >  [포먼트(formant)](https://m.blog.naver.com/PostView.nhn?blogId=200613241&logNo=221149632021&proxyReferer=https://www.google.com/)    
 
 이러한 차이를 이용하여 가수들을 분류하는 것을 목표로 분류기를 학습 시켜보았다.
@@ -282,11 +283,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMDkyMDUsLTQ0NzM1ODk5NSwyMzgxMD
-A4Niw1NjI4NDUzNTcsLTIwMjYwNTQxNDMsLTE4MTU0MDEyOTQs
-LTE4MDY2OTk5NTEsLTE1MDg1MjA1NjMsMTA5Mjc3MjQ0MSw4Mz
-YyMzk1MTMsLTc2NjAxNzMsLTE1MzEwMTI1NTcsLTEwMTQyMzg4
-MzcsMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5NCwtOD
-E5MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5
-MzddfQ==
+eyJoaXN0b3J5IjpbLTQ0MDk5MDE5NywtNDQ3MzU4OTk1LDIzOD
+EwMDg2LDU2Mjg0NTM1NywtMjAyNjA1NDE0MywtMTgxNTQwMTI5
+NCwtMTgwNjY5OTk1MSwtMTUwODUyMDU2MywxMDkyNzcyNDQxLD
+gzNjIzOTUxMywtNzY2MDE3MywtMTUzMTAxMjU1NywtMTAxNDIz
+ODgzNywyNjM0ODQ5NDYsMTIyNTAzOTczNiwxMTYwNDA5Njk0LC
+04MTkzNDI5NzgsLTE0NDY4NjY5MTUsNDI1NDQzMjU2LDE3Njc2
+ODkzN119
 -->
