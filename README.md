@@ -24,7 +24,7 @@
 # Insight
 
 가수들이 서로 같은 노래를 불러도 **차이가 나는 것**을 느낄 수 있다. 이는 각 가수 마다 음을 낼 때, 조금씩 **다른 배음구조를** 가지고 내기 때문이다. 즉 다른 말로 하면 목소리가 다르기 때문인데 이는 성대 구조의 차이, 발성 방식의 차이 때문이다. 가수들은 이것을 의도하기도 하는데 이러한 스킬을 음향악에서는 *포먼트 튜닝*이라고 한다.  이때  낮은 배음을 많이 섞는 가수의 경우 **두껍고 어두운 소리**가 나고, 높은 배음을 많이 섞는 가수의 경우 **얇고 날카로운 소리**가 난다. 이러한 차이는 실제로 가수들을 비교해보면 알 수 있다.
-[포먼트 튜닝](https://m.blog.naver.com/PostView.nhn?blogId=200613241&logNo=221149632021&proxyReferer=https://www.google.com/)
+*[포먼트 튜닝](https://m.blog.naver.com/PostView.nhn?blogId=200613241&logNo=221149632021&proxyReferer=https://www.google.com/)
 
 >*가수 권정렬과 황치열*
 > <img src="https://pbs.twimg.com/media/EAC2qfqU4AACa8j.jpg" width="320" 
@@ -281,7 +281,7 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzcyMDM4NiwtOTk1Mjg1Mjc0LC00ND
+eyJoaXN0b3J5IjpbMTc1NTM2NjE1MCwtOTk1Mjg1Mjc0LC00ND
 czNTg5OTUsMjM4MTAwODYsNTYyODQ1MzU3LC0yMDI2MDU0MTQz
 LC0xODE1NDAxMjk0LC0xODA2Njk5OTUxLC0xNTA4NTIwNTYzLD
 EwOTI3NzI0NDEsODM2MjM5NTEzLC03NjYwMTczLC0xNTMxMDEy
