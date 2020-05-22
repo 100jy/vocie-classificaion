@@ -26,9 +26,9 @@
 각 가수 마다 같은 피치의 음을 낼 때, **다른 배음구조를** 가지고 낸다, 이는 성대구조 차이, 발성 방식의 차이 때문이다.  이러한 **배음 구조의 차이가 음색**이라는 특징을 만들어 준다.  낮은 배음을 많이 섞는 가수의 경우 두껍고 어두운 소리가 나고, 높은 배음을 많이 썪는 가수의 경우 얇고 날카로운 소리가 난다. 이러한 차이는 실제로 가수들을 비교해보면 알 수 있다.
 
 
-<img src="https://pbs.twimg.com/media/EAC2qfqU4AACa8j.jpg" width="320" 
+> <img src="https://pbs.twimg.com/media/EAC2qfqU4AACa8j.jpg" width="320" 
 height="450"> 
-<img src="https://p1.pstatp.com/large/pgc-image/RG9PSa5ESwCY2O" width="350" 
+> <img src="https://p1.pstatp.com/large/pgc-image/RG9PSa5ESwCY2O" width="350" 
 height="450"> 
 
 *가수 권정렬과 황치열*
@@ -276,11 +276,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg5MjI4MzgsLTE4MTU0MDEyOTQsLT
-E4MDY2OTk5NTEsLTE1MDg1MjA1NjMsMTA5Mjc3MjQ0MSw4MzYy
-Mzk1MTMsLTc2NjAxNzMsLTE1MzEwMTI1NTcsLTEwMTQyMzg4Mz
-csMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5NCwtODE5
-MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5Mz
-csLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0x
-NDI1NTM2NDI1XX0=
+eyJoaXN0b3J5IjpbLTE0OTc5OTI2LC0xODE1NDAxMjk0LC0xOD
+A2Njk5OTUxLC0xNTA4NTIwNTYzLDEwOTI3NzI0NDEsODM2MjM5
+NTEzLC03NjYwMTczLC0xNTMxMDEyNTU3LC0xMDE0MjM4ODM3LD
+I2MzQ4NDk0NiwxMjI1MDM5NzM2LDExNjA0MDk2OTQsLTgxOTM0
+Mjk3OCwtMTQ0Njg2NjkxNSw0MjU0NDMyNTYsMTc2NzY4OTM3LC
+0xNDU4NjkzOTYxLDE5ODkwOTg0NTQsMTIyMzc0MjgzMywtMTQy
+NTUzNjQyNV19
 -->
