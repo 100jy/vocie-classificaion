@@ -25,6 +25,9 @@
 
 각 가수 마다 같은 피치의 음을 낼 때, **다른 배음구조를** 가지고 낸다, 이는 성대구조 차이, 발성 방식의 차이 때문이다.  이러한 배음 구조의 차이가 **사람의 음색**이라는 특징을 만들어 준다.
 
+10cm사진 황치열사진
+두 가수의 음색을 비교해보면 10cm는 높고 날카로운 소리가 나고, 황치열의 경우 낮고 거친소리가 난다.
+
 
 
 # Data pre-processing
@@ -262,11 +265,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY2OTk5NTEsLTE1MDg1MjA1NjMsMT
-A5Mjc3MjQ0MSw4MzYyMzk1MTMsLTc2NjAxNzMsLTE1MzEwMTI1
-NTcsLTEwMTQyMzg4MzcsMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMT
-E2MDQwOTY5NCwtODE5MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0
-MzI1NiwxNzY3Njg5MzcsLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NC
-wxMjIzNzQyODMzLC0xNDI1NTM2NDI1LC0xMzAwMjc3NDI3LC0x
-OTg5OTIyNjZdfQ==
+eyJoaXN0b3J5IjpbLTE4MDMwODMwNzUsLTE4MDY2OTk5NTEsLT
+E1MDg1MjA1NjMsMTA5Mjc3MjQ0MSw4MzYyMzk1MTMsLTc2NjAx
+NzMsLTE1MzEwMTI1NTcsLTEwMTQyMzg4MzcsMjYzNDg0OTQ2LD
+EyMjUwMzk3MzYsMTE2MDQwOTY5NCwtODE5MzQyOTc4LC0xNDQ2
+ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLTE0NTg2OTM5Nj
+EsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2NDI1LC0x
+MzAwMjc3NDI3XX0=
 -->
