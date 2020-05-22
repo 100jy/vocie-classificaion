@@ -41,7 +41,7 @@ height="450">
 
 ><img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/formant.png" width="700" 
 height="500">
-> 각각 
+> 각각 '레'음과 '미'음를 낸 경우 인데 
 
 # Data pre-processing
 
@@ -278,11 +278,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyODQ1MzU3LC0yMDI2MDU0MTQzLC0xOD
-E1NDAxMjk0LC0xODA2Njk5OTUxLC0xNTA4NTIwNTYzLDEwOTI3
-NzI0NDEsODM2MjM5NTEzLC03NjYwMTczLC0xNTMxMDEyNTU3LC
-0xMDE0MjM4ODM3LDI2MzQ4NDk0NiwxMjI1MDM5NzM2LDExNjA0
-MDk2OTQsLTgxOTM0Mjk3OCwtMTQ0Njg2NjkxNSw0MjU0NDMyNT
-YsMTc2NzY4OTM3LC0xNDU4NjkzOTYxLDE5ODkwOTg0NTQsMTIy
-Mzc0MjgzM119
+eyJoaXN0b3J5IjpbMjExNTA3NDI0Niw1NjI4NDUzNTcsLTIwMj
+YwNTQxNDMsLTE4MTU0MDEyOTQsLTE4MDY2OTk5NTEsLTE1MDg1
+MjA1NjMsMTA5Mjc3MjQ0MSw4MzYyMzk1MTMsLTc2NjAxNzMsLT
+E1MzEwMTI1NTcsLTEwMTQyMzg4MzcsMjYzNDg0OTQ2LDEyMjUw
+Mzk3MzYsMTE2MDQwOTY5NCwtODE5MzQyOTc4LC0xNDQ2ODY2OT
+E1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLTE0NTg2OTM5NjEsMTk4
+OTA5ODQ1NF19
 -->
