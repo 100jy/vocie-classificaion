@@ -27,7 +27,9 @@
 
 <img src="https://pbs.twimg.com/media/EAC2qfqU4AACa8j.jpg" width="350" 
 height="450"> 
-https://t1.daumcdn.net/cfile/tistory/264ACA3359438C9B20
+<img src="https://t1.daumcdn.net/cfile/tistory/264ACA3359438C9B20" width="350" 
+height="450"> 
+
 
 
 
@@ -271,11 +273,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjEwODM3MCwtMTgwNjY5OTk1MSwtMT
-UwODUyMDU2MywxMDkyNzcyNDQxLDgzNjIzOTUxMywtNzY2MDE3
-MywtMTUzMTAxMjU1NywtMTAxNDIzODgzNywyNjM0ODQ5NDYsMT
-IyNTAzOTczNiwxMTYwNDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4
-NjY5MTUsNDI1NDQzMjU2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MS
-wxOTg5MDk4NDU0LDEyMjM3NDI4MzMsLTE0MjU1MzY0MjUsLTEz
-MDAyNzc0MjddfQ==
+eyJoaXN0b3J5IjpbLTE4MTU0MDEyOTQsLTE4MDY2OTk5NTEsLT
+E1MDg1MjA1NjMsMTA5Mjc3MjQ0MSw4MzYyMzk1MTMsLTc2NjAx
+NzMsLTE1MzEwMTI1NTcsLTEwMTQyMzg4MzcsMjYzNDg0OTQ2LD
+EyMjUwMzk3MzYsMTE2MDQwOTY5NCwtODE5MzQyOTc4LC0xNDQ2
+ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5MzcsLTE0NTg2OTM5Nj
+EsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0xNDI1NTM2NDI1LC0x
+MzAwMjc3NDI3XX0=
 -->
