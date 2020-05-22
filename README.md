@@ -41,8 +41,7 @@ height="450">
 
 <img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/formant0.png" width="700" 
 height="500">
-<img src="https://github.com/100jy/vocie-classificaion/blob/master/voicepro/figures/formant1.png" width="700" 
-height="500">
+
 
 
 # Data pre-processing
@@ -280,11 +279,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYwNTQxNDMsLTE4MTU0MDEyOTQsLT
-E4MDY2OTk5NTEsLTE1MDg1MjA1NjMsMTA5Mjc3MjQ0MSw4MzYy
-Mzk1MTMsLTc2NjAxNzMsLTE1MzEwMTI1NTcsLTEwMTQyMzg4Mz
-csMjYzNDg0OTQ2LDEyMjUwMzk3MzYsMTE2MDQwOTY5NCwtODE5
-MzQyOTc4LC0xNDQ2ODY2OTE1LDQyNTQ0MzI1NiwxNzY3Njg5Mz
-csLTE0NTg2OTM5NjEsMTk4OTA5ODQ1NCwxMjIzNzQyODMzLC0x
-NDI1NTM2NDI1XX0=
+eyJoaXN0b3J5IjpbLTczMDA2NTY1OSwtMjAyNjA1NDE0MywtMT
+gxNTQwMTI5NCwtMTgwNjY5OTk1MSwtMTUwODUyMDU2MywxMDky
+NzcyNDQxLDgzNjIzOTUxMywtNzY2MDE3MywtMTUzMTAxMjU1Ny
+wtMTAxNDIzODgzNywyNjM0ODQ5NDYsMTIyNTAzOTczNiwxMTYw
+NDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5MTUsNDI1NDQzMj
+U2LDE3Njc2ODkzNywtMTQ1ODY5Mzk2MSwxOTg5MDk4NDU0LDEy
+MjM3NDI4MzNdfQ==
 -->
