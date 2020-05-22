@@ -27,6 +27,7 @@
 [(포먼트 튜닝)](https://m.blog.naver.com/PostView.nhn?blogId=200613241&logNo=221149632021&proxyReferer=https://www.google.com/)
 
 >*가수 권정렬과 황치열*
+>
 > <img src="https://pbs.twimg.com/media/EAC2qfqU4AACa8j.jpg" width="320" 
 height="450"> 
 > <img src="https://p1.pstatp.com/large/pgc-image/RG9PSa5ESwCY2O" width="350" 
@@ -281,11 +282,11 @@ get_singer(db, list_culster[predict_CNN[0]], x_mean)
 
 **MFCC를 이용한 가수들의 분류**가 직관적으로 분류되는 기준과 비슷하게 보이며 이를 신경망으로 분류하는 것이 **납득을 할만한 결과**를 보여주었다. 이를 이용하여 가수들을 **목소리 별로 tagging**을 하는 것이 가능할 것으로 보인다.    허나 데이터가 부족하여 분류 정확도가 그리 높지는 않았다. 이후 데이터를 더 많이 모은다면 더욱 좋은 성능의 분류기를 학습 시킬 수 있을 것으로 보인다.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzY4NTAxMSwtOTk1Mjg1Mjc0LC00ND
-czNTg5OTUsMjM4MTAwODYsNTYyODQ1MzU3LC0yMDI2MDU0MTQz
-LC0xODE1NDAxMjk0LC0xODA2Njk5OTUxLC0xNTA4NTIwNTYzLD
-EwOTI3NzI0NDEsODM2MjM5NTEzLC03NjYwMTczLC0xNTMxMDEy
-NTU3LC0xMDE0MjM4ODM3LDI2MzQ4NDk0NiwxMjI1MDM5NzM2LD
-ExNjA0MDk2OTQsLTgxOTM0Mjk3OCwtMTQ0Njg2NjkxNSw0MjU0
-NDMyNTZdfQ==
+eyJoaXN0b3J5IjpbLTIxODA1MjEsLTk5NTI4NTI3NCwtNDQ3Mz
+U4OTk1LDIzODEwMDg2LDU2Mjg0NTM1NywtMjAyNjA1NDE0Mywt
+MTgxNTQwMTI5NCwtMTgwNjY5OTk1MSwtMTUwODUyMDU2MywxMD
+kyNzcyNDQxLDgzNjIzOTUxMywtNzY2MDE3MywtMTUzMTAxMjU1
+NywtMTAxNDIzODgzNywyNjM0ODQ5NDYsMTIyNTAzOTczNiwxMT
+YwNDA5Njk0LC04MTkzNDI5NzgsLTE0NDY4NjY5MTUsNDI1NDQz
+MjU2XX0=
 -->
